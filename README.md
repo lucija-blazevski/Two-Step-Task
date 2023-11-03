@@ -14,7 +14,7 @@ The task is divided into four main phases:
 
 1. **Tutorial**: Participants are familiarized with the task rules.
 
-2. **Learning Phase**: Main task part where participants make two sequential decisions and learn associations between different spaceships, planets, aliens and rewards. They 
+2. **Learning Phase**: Main task part where participants make two sequential decisions and learn associations between different spaceships, planets, aliens and rewards.  
 
 3. **Post-Task Testing Phase**: This phase evaluates the participants' understanding and retention of the associations learned in the previous phase.
 
