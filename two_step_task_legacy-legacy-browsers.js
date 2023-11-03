@@ -148,102 +148,102 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'resources/post_test.xlsx', 'path': 'resources/post_test.xlsx'},
-    {'name': 'resources/tutalien3_a2.png', 'path': 'resources/tutalien3_a2.png'},
-    {'name': 'resources/empty_token.png', 'path': 'resources/empty_token.png'},
-    {'name': 'resources/tutrocket1_a1.png', 'path': 'resources/tutrocket1_a1.png'},
-    {'name': 'resources/tutalien1_d.png', 'path': 'resources/tutalien1_d.png'},
-    {'name': 'resources/alien1_deact.png', 'path': 'resources/alien1_deact.png'},
-    {'name': 'resources/alien3_a1.png', 'path': 'resources/alien3_a1.png'},
-    {'name': 'resources/black.png', 'path': 'resources/black.png'},
-    {'name': 'resources/tutalien3_s.png', 'path': 'resources/tutalien3_s.png'},
-    {'name': 'resources/payoff/payoff_1.csv', 'path': 'resources/payoff/payoff_1.csv'},
-    {'name': 'resources/alien3_norm.png', 'path': 'resources/alien3_norm.png'},
-    {'name': 'resources/tutrocket2_a2.png', 'path': 'resources/tutrocket2_a2.png'},
-    {'name': 'resources/rocket1_sp.png', 'path': 'resources/rocket1_sp.png'},
-    {'name': 'resources/alien3_sp.png', 'path': 'resources/alien3_sp.png'},
-    {'name': 'resources/alien4_norm.png', 'path': 'resources/alien4_norm.png'},
-    {'name': 'resources/tutrocket2_n.png', 'path': 'resources/tutrocket2_n.png'},
-    {'name': 'resources/tutalien4_n.png', 'path': 'resources/tutalien4_n.png'},
-    {'name': 'resources/payoff/payoff_41.csv', 'path': 'resources/payoff/payoff_41.csv'},
-    {'name': 'resources/alien1_a2.png', 'path': 'resources/alien1_a2.png'},
-    {'name': 'resources/TRY_02.csv', 'path': 'resources/TRY_02.csv'},
-    {'name': 'resources/tutalien3_d.png', 'path': 'resources/tutalien3_d.png'},
-    {'name': 'resources/tutalien3_a1.png', 'path': 'resources/tutalien3_a1.png'},
-    {'name': 'resources/tutalien1_s.png', 'path': 'resources/tutalien1_s.png'},
-    {'name': 'resources/tutalien2_d.png', 'path': 'resources/tutalien2_d.png'},
-    {'name': 'resources/tutyellowplanet.jpg', 'path': 'resources/tutyellowplanet.jpg'},
-    {'name': 'resources/tutalien2_a1.png', 'path': 'resources/tutalien2_a1.png'},
-    {'name': 'resources/tutrocket1_a2.png', 'path': 'resources/tutrocket1_a2.png'},
-    {'name': 'resources/payoff/payoff_11.csv', 'path': 'resources/payoff/payoff_11.csv'},
-    {'name': 'resources/payoff/payoff_42.csv', 'path': 'resources/payoff/payoff_42.csv'},
-    {'name': 'resources/post_purpleplanet.jpg', 'path': 'resources/post_purpleplanet.jpg'},
+    {'name': 'resources/tutalien2_n.png', 'path': 'resources/tutalien2_n.png'},
+    {'name': 'resources/rocket1_deact.png', 'path': 'resources/rocket1_deact.png'},
     {'name': 'resources/alien2_a2.png', 'path': 'resources/alien2_a2.png'},
-    {'name': 'resources/alien4_a1.png', 'path': 'resources/alien4_a1.png'},
+    {'name': 'resources/alien4_a2.png', 'path': 'resources/alien4_a2.png'},
+    {'name': 'resources/tutrocket2_d.png', 'path': 'resources/tutrocket2_d.png'},
     {'name': 'resources/tutalien4_a2.png', 'path': 'resources/tutalien4_a2.png'},
-    {'name': 'resources/tutalien3_n.png', 'path': 'resources/tutalien3_n.png'},
+    {'name': 'resources/payoff/payoff_44.csv', 'path': 'resources/payoff/payoff_44.csv'},
     {'name': 'resources/alien1_sp.png', 'path': 'resources/alien1_sp.png'},
-    {'name': 'resources/tutrocket2_s.png', 'path': 'resources/tutrocket2_s.png'},
+    {'name': 'resources/tutalien1_d.png', 'path': 'resources/tutalien1_d.png'},
+    {'name': 'resources/tutalien1_n.png', 'path': 'resources/tutalien1_n.png'},
+    {'name': 'resources/rocket2_norm.png', 'path': 'resources/rocket2_norm.png'},
     {'name': 'resources/tutalien4_d.png', 'path': 'resources/tutalien4_d.png'},
-    {'name': 'resources/tutrocket2_a1.png', 'path': 'resources/tutrocket2_a1.png'},
-    {'name': 'resources/payoff/payoff_test2.csv', 'path': 'resources/payoff/payoff_test2.csv'},
-    {'name': 'resources/t.png', 'path': 'resources/t.png'},
-    {'name': 'resources/alien2_sp.png', 'path': 'resources/alien2_sp.png'},
+    {'name': 'resources/earth.jpg', 'path': 'resources/earth.jpg'},
+    {'name': 'resources/post_purpleplanet.jpg', 'path': 'resources/post_purpleplanet.jpg'},
+    {'name': 'resources/alien3_norm.png', 'path': 'resources/alien3_norm.png'},
+    {'name': 'resources/purpleplanet.jpg', 'path': 'resources/purpleplanet.jpg'},
+    {'name': 'resources/tutalien1_s.png', 'path': 'resources/tutalien1_s.png'},
+    {'name': 'resources/alien3_a1.png', 'path': 'resources/alien3_a1.png'},
+    {'name': 'resources/payoff/payoff_42.csv', 'path': 'resources/payoff/payoff_42.csv'},
+    {'name': 'resources/redplanet.jpg', 'path': 'resources/redplanet.jpg'},
+    {'name': 'resources/black.png', 'path': 'resources/black.png'},
+    {'name': 'resources/tutrocket1_a2.png', 'path': 'resources/tutrocket1_a2.png'},
+    {'name': 'resources/tutalien3_s.png', 'path': 'resources/tutalien3_s.png'},
+    {'name': 'resources/payoff/payoff_3.csv', 'path': 'resources/payoff/payoff_3.csv'},
     {'name': 'resources/tutgreenplanet.jpg', 'path': 'resources/tutgreenplanet.jpg'},
-    {'name': 'resources/rocket2_deact.png', 'path': 'resources/rocket2_deact.png'},
+    {'name': 'resources/payoff/payoff_33.csv', 'path': 'resources/payoff/payoff_33.csv'},
+    {'name': 'resources/payoff/payoff_11.csv', 'path': 'resources/payoff/payoff_11.csv'},
+    {'name': 'resources/alien1_a2.png', 'path': 'resources/alien1_a2.png'},
+    {'name': 'resources/tutalien3_a1.png', 'path': 'resources/tutalien3_a1.png'},
+    {'name': 'resources/TRY_02.csv', 'path': 'resources/TRY_02.csv'},
+    {'name': 'resources/blank.png', 'path': 'resources/blank.png'},
+    {'name': 'resources/rocket1_sp.png', 'path': 'resources/rocket1_sp.png'},
+    {'name': 'resources/payoff/payoff_23.csv', 'path': 'resources/payoff/payoff_23.csv'},
+    {'name': 'resources/alien2_deact.png', 'path': 'resources/alien2_deact.png'},
+    {'name': 'resources/alien3_a2.png', 'path': 'resources/alien3_a2.png'},
+    {'name': 'resources/alien4_norm.png', 'path': 'resources/alien4_norm.png'},
+    {'name': 'resources/tutalien3_d.png', 'path': 'resources/tutalien3_d.png'},
+    {'name': 'resources/tutalien2_s.png', 'path': 'resources/tutalien2_s.png'},
+    {'name': 'resources/t.png', 'path': 'resources/t.png'},
+    {'name': 'resources/tutrocket1_s.png', 'path': 'resources/tutrocket1_s.png'},
+    {'name': 'resources/rocket1_a2.png', 'path': 'resources/rocket1_a2.png'},
+    {'name': 'resources/TUTORIAL_02.csv', 'path': 'resources/TUTORIAL_02.csv'},
+    {'name': 'resources/payoff/payoff_32.csv', 'path': 'resources/payoff/payoff_32.csv'},
+    {'name': 'resources/tutrocket2_a1.png', 'path': 'resources/tutrocket2_a1.png'},
+    {'name': 'resources/empty_token.png', 'path': 'resources/empty_token.png'},
+    {'name': 'resources/tutalien2_d.png', 'path': 'resources/tutalien2_d.png'},
+    {'name': 'resources/TUTORIAL_04.csv', 'path': 'resources/TUTORIAL_04.csv'},
+    {'name': 'resources/payoff/payoff_test3.csv', 'path': 'resources/payoff/payoff_test3.csv'},
+    {'name': 'resources/alien1_deact.png', 'path': 'resources/alien1_deact.png'},
+    {'name': 'resources/payoff/payoff_41.csv', 'path': 'resources/payoff/payoff_41.csv'},
+    {'name': 'resources/tutalien4_s.png', 'path': 'resources/tutalien4_s.png'},
+    {'name': 'resources/alien3_sp.png', 'path': 'resources/alien3_sp.png'},
+    {'name': 'resources/alien4_deact.png', 'path': 'resources/alien4_deact.png'},
+    {'name': 'resources/tutalien4_a1.png', 'path': 'resources/tutalien4_a1.png'},
+    {'name': 'resources/tutalien3_a2.png', 'path': 'resources/tutalien3_a2.png'},
+    {'name': 'resources/tutrocket1_d.png', 'path': 'resources/tutrocket1_d.png'},
+    {'name': 'resources/TUTORIAL_01.xlsx', 'path': 'resources/TUTORIAL_01.xlsx'},
+    {'name': 'resources/payoff/payoff_2.csv', 'path': 'resources/payoff/payoff_2.csv'},
+    {'name': 'resources/alien2_norm.png', 'path': 'resources/alien2_norm.png'},
+    {'name': 'resources/tutalien2_a2.png', 'path': 'resources/tutalien2_a2.png'},
+    {'name': 'resources/tutalien2_a1.png', 'path': 'resources/tutalien2_a1.png'},
+    {'name': 'resources/payoff/payoff_1.csv', 'path': 'resources/payoff/payoff_1.csv'},
+    {'name': 'resources/rocket2_a1.png', 'path': 'resources/rocket2_a1.png'},
+    {'name': 'resources/payoff/payoff_test1.csv', 'path': 'resources/payoff/payoff_test1.csv'},
+    {'name': 'resources/tutrocket1_n.png', 'path': 'resources/tutrocket1_n.png'},
+    {'name': 'resources/tutrocket2_a2.png', 'path': 'resources/tutrocket2_a2.png'},
+    {'name': 'resources/payoff/payoff_test2.csv', 'path': 'resources/payoff/payoff_test2.csv'},
+    {'name': 'resources/probe_alien_order.xlsx', 'path': 'resources/probe_alien_order.xlsx'},
+    {'name': 'resources/rocket2_a2.png', 'path': 'resources/rocket2_a2.png'},
+    {'name': 'resources/post_test.xlsx', 'path': 'resources/post_test.xlsx'},
+    {'name': 'resources/tutrocket2_s.png', 'path': 'resources/tutrocket2_s.png'},
+    {'name': 'resources/alien1_norm.png', 'path': 'resources/alien1_norm.png'},
+    {'name': 'resources/tutalien1_a2.png', 'path': 'resources/tutalien1_a2.png'},
+    {'name': 'resources/tutalien3_n.png', 'path': 'resources/tutalien3_n.png'},
+    {'name': 'resources/alien4_a1.png', 'path': 'resources/alien4_a1.png'},
+    {'name': 'resources/tutalien4_n.png', 'path': 'resources/tutalien4_n.png'},
+    {'name': 'resources/alien1_a1.png', 'path': 'resources/alien1_a1.png'},
+    {'name': 'resources/payoff/payoff_13.csv', 'path': 'resources/payoff/payoff_13.csv'},
+    {'name': 'resources/payoff/payoff_4.csv', 'path': 'resources/payoff/payoff_4.csv'},
+    {'name': 'resources/tutyellowplanet.jpg', 'path': 'resources/tutyellowplanet.jpg'},
     {'name': 'resources/post_redplanet.jpg', 'path': 'resources/post_redplanet.jpg'},
+    {'name': 'resources/alien3_deact.png', 'path': 'resources/alien3_deact.png'},
+    {'name': 'resources/rocket1_a1.png', 'path': 'resources/rocket1_a1.png'},
+    {'name': 'resources/tutrocket2_n.png', 'path': 'resources/tutrocket2_n.png'},
+    {'name': 'resources/tutrocket1_a1.png', 'path': 'resources/tutrocket1_a1.png'},
+    {'name': 'resources/rocket1_norm.png', 'path': 'resources/rocket1_norm.png'},
+    {'name': 'resources/payoff/payoff_12.csv', 'path': 'resources/payoff/payoff_12.csv'},
     {'name': 'resources/payoff/payoff_22.csv', 'path': 'resources/payoff/payoff_22.csv'},
+    {'name': 'resources/alien2_a1.png', 'path': 'resources/alien2_a1.png'},
+    {'name': 'resources/alien4_sp.png', 'path': 'resources/alien4_sp.png'},
+    {'name': 'resources/alien2_sp.png', 'path': 'resources/alien2_sp.png'},
+    {'name': 'resources/tutalien1_a1.png', 'path': 'resources/tutalien1_a1.png'},
     {'name': 'resources/payoff/payoff_21.csv', 'path': 'resources/payoff/payoff_21.csv'},
     {'name': 'resources/payoff/payoff_31.csv', 'path': 'resources/payoff/payoff_31.csv'},
-    {'name': 'resources/probe_alien_order.xlsx', 'path': 'resources/probe_alien_order.xlsx'},
-    {'name': 'resources/alien3_deact.png', 'path': 'resources/alien3_deact.png'},
-    {'name': 'resources/tutalien1_a2.png', 'path': 'resources/tutalien1_a2.png'},
-    {'name': 'resources/blank.png', 'path': 'resources/blank.png'},
-    {'name': 'resources/rocket2_sp.png', 'path': 'resources/rocket2_sp.png'},
-    {'name': 'resources/payoff/payoff_3.csv', 'path': 'resources/payoff/payoff_3.csv'},
-    {'name': 'resources/alien4_a2.png', 'path': 'resources/alien4_a2.png'},
-    {'name': 'resources/tutalien4_a1.png', 'path': 'resources/tutalien4_a1.png'},
-    {'name': 'resources/payoff/payoff_13.csv', 'path': 'resources/payoff/payoff_13.csv'},
-    {'name': 'resources/alien2_a1.png', 'path': 'resources/alien2_a1.png'},
-    {'name': 'resources/rocket1_a1.png', 'path': 'resources/rocket1_a1.png'},
-    {'name': 'resources/tutalien1_a1.png', 'path': 'resources/tutalien1_a1.png'},
-    {'name': 'resources/alien2_norm.png', 'path': 'resources/alien2_norm.png'},
-    {'name': 'resources/alien2_deact.png', 'path': 'resources/alien2_deact.png'},
-    {'name': 'resources/payoff/payoff_32.csv', 'path': 'resources/payoff/payoff_32.csv'},
-    {'name': 'resources/tutalien2_s.png', 'path': 'resources/tutalien2_s.png'},
-    {'name': 'resources/alien4_deact.png', 'path': 'resources/alien4_deact.png'},
-    {'name': 'resources/tutalien2_n.png', 'path': 'resources/tutalien2_n.png'},
-    {'name': 'resources/rocket1_norm.png', 'path': 'resources/rocket1_norm.png'},
-    {'name': 'resources/payoff/payoff_44.csv', 'path': 'resources/payoff/payoff_44.csv'},
-    {'name': 'resources/TUTORIAL_02.csv', 'path': 'resources/TUTORIAL_02.csv'},
-    {'name': 'resources/tutrocket2_d.png', 'path': 'resources/tutrocket2_d.png'},
-    {'name': 'resources/rocket1_deact.png', 'path': 'resources/rocket1_deact.png'},
-    {'name': 'resources/payoff/payoff_test1.csv', 'path': 'resources/payoff/payoff_test1.csv'},
-    {'name': 'resources/payoff/payoff_4.csv', 'path': 'resources/payoff/payoff_4.csv'},
-    {'name': 'resources/payoff/payoff_test3.csv', 'path': 'resources/payoff/payoff_test3.csv'},
-    {'name': 'resources/tutrocket1_d.png', 'path': 'resources/tutrocket1_d.png'},
-    {'name': 'resources/payoff/payoff_2.csv', 'path': 'resources/payoff/payoff_2.csv'},
-    {'name': 'resources/alien1_a1.png', 'path': 'resources/alien1_a1.png'},
-    {'name': 'resources/rocket2_a1.png', 'path': 'resources/rocket2_a1.png'},
-    {'name': 'resources/tutrocket1_s.png', 'path': 'resources/tutrocket1_s.png'},
-    {'name': 'resources/earth.jpg', 'path': 'resources/earth.jpg'},
-    {'name': 'resources/TUTORIAL_04.csv', 'path': 'resources/TUTORIAL_04.csv'},
-    {'name': 'resources/purpleplanet.jpg', 'path': 'resources/purpleplanet.jpg'},
-    {'name': 'resources/alien4_sp.png', 'path': 'resources/alien4_sp.png'},
-    {'name': 'resources/alien1_norm.png', 'path': 'resources/alien1_norm.png'},
-    {'name': 'resources/tutalien1_n.png', 'path': 'resources/tutalien1_n.png'},
-    {'name': 'resources/TUTORIAL_01.xlsx', 'path': 'resources/TUTORIAL_01.xlsx'},
-    {'name': 'resources/payoff/payoff_12.csv', 'path': 'resources/payoff/payoff_12.csv'},
-    {'name': 'resources/payoff/payoff_23.csv', 'path': 'resources/payoff/payoff_23.csv'},
-    {'name': 'resources/alien3_a2.png', 'path': 'resources/alien3_a2.png'},
-    {'name': 'resources/tutalien4_s.png', 'path': 'resources/tutalien4_s.png'},
-    {'name': 'resources/payoff/payoff_33.csv', 'path': 'resources/payoff/payoff_33.csv'},
-    {'name': 'resources/redplanet.jpg', 'path': 'resources/redplanet.jpg'},
-    {'name': 'resources/rocket1_a2.png', 'path': 'resources/rocket1_a2.png'},
-    {'name': 'resources/tutrocket1_n.png', 'path': 'resources/tutrocket1_n.png'},
-    {'name': 'resources/rocket2_norm.png', 'path': 'resources/rocket2_norm.png'},
-    {'name': 'resources/rocket2_a2.png', 'path': 'resources/rocket2_a2.png'},
-    {'name': 'resources/tutalien2_a2.png', 'path': 'resources/tutalien2_a2.png'}
+    {'name': 'resources/rocket2_deact.png', 'path': 'resources/rocket2_deact.png'},
+    {'name': 'resources/rocket2_sp.png', 'path': 'resources/rocket2_sp.png'}
   ]
 });
 
@@ -8345,7 +8345,6 @@ var _key_resp_probe_allKeys;
 var static_probabilities;
 var static_probability_l;
 var static_probability_r;
-var accuracy;
 var PROBEComponents;
 function PROBERoutineBegin(snapshot) {
   return async function () {
@@ -8390,26 +8389,6 @@ function PROBERoutineBegin(snapshot) {
     psychoJS.experiment.addData("phase", "probe");
     psychoJS.experiment.addData("static_probability_left", static_probability_l);
     psychoJS.experiment.addData("static_probability_right", static_probability_r);
-    accuracy = "none";
-    if ((static_probability_l > static_probability_r)) {
-        if ((key_resp_probe.keys === "x")) {
-            accuracy = 1;
-        } else {
-            if ((key_resp_probe.keys === "m")) {
-                accuracy = 0;
-            }
-        }
-    }
-    if ((static_probability_r > static_probability_l)) {
-        if ((key_resp_probe.keys === "m")) {
-            accuracy = 1;
-        } else {
-            if ((key_resp_probe.keys === "x")) {
-                accuracy = 0;
-            }
-        }
-    }
-    psychoJS.experiment.addData("accuracy", accuracy);
     
     // keep track of which components have finished
     PROBEComponents = [];
@@ -8532,6 +8511,7 @@ function PROBERoutineEachFrame() {
 }
 
 
+var accuracy;
 function PROBERoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'PROBE' ---
@@ -8551,6 +8531,28 @@ function PROBERoutineEnd(snapshot) {
         }
     
     key_resp_probe.stop();
+    // Run 'End Routine' code from code_probe
+    accuracy = "none";
+    if ((static_probability_l > static_probability_r)) {
+        if ((key_resp_probe.keys === "x")) {
+            accuracy = 1;
+        } else {
+            if ((key_resp_probe.keys === "m")) {
+                accuracy = 0;
+            }
+        }
+    }
+    if ((static_probability_r > static_probability_l)) {
+        if ((key_resp_probe.keys === "m")) {
+            accuracy = 1;
+        } else {
+            if ((key_resp_probe.keys === "x")) {
+                accuracy = 0;
+            }
+        }
+    }
+    psychoJS.experiment.addData("accuracy", accuracy);
+    
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
