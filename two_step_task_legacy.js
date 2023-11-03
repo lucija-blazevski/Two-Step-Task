@@ -156,102 +156,102 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'resources/tutalien2_a2.png', 'path': 'resources/tutalien2_a2.png'},
-    {'name': 'resources/post_test.xlsx', 'path': 'resources/post_test.xlsx'},
-    {'name': 'resources/payoff/payoff_1.csv', 'path': 'resources/payoff/payoff_1.csv'},
-    {'name': 'resources/rocket2_deact.png', 'path': 'resources/rocket2_deact.png'},
-    {'name': 'resources/alien2_deact.png', 'path': 'resources/alien2_deact.png'},
-    {'name': 'resources/tutrocket2_a2.png', 'path': 'resources/tutrocket2_a2.png'},
-    {'name': 'resources/tutalien3_n.png', 'path': 'resources/tutalien3_n.png'},
-    {'name': 'resources/post_redplanet.jpg', 'path': 'resources/post_redplanet.jpg'},
-    {'name': 'resources/tutrocket2_s.png', 'path': 'resources/tutrocket2_s.png'},
-    {'name': 'resources/purpleplanet.jpg', 'path': 'resources/purpleplanet.jpg'},
-    {'name': 'resources/tutgreenplanet.jpg', 'path': 'resources/tutgreenplanet.jpg'},
-    {'name': 'resources/tutalien1_s.png', 'path': 'resources/tutalien1_s.png'},
-    {'name': 'resources/tutalien1_n.png', 'path': 'resources/tutalien1_n.png'},
-    {'name': 'resources/rocket2_norm.png', 'path': 'resources/rocket2_norm.png'},
-    {'name': 'resources/tutyellowplanet.jpg', 'path': 'resources/tutyellowplanet.jpg'},
-    {'name': 'resources/alien4_a2.png', 'path': 'resources/alien4_a2.png'},
-    {'name': 'resources/alien4_sp.png', 'path': 'resources/alien4_sp.png'},
-    {'name': 'resources/tutalien2_d.png', 'path': 'resources/tutalien2_d.png'},
-    {'name': 'resources/payoff/payoff_test3.csv', 'path': 'resources/payoff/payoff_test3.csv'},
-    {'name': 'resources/probe_alien_order.xlsx', 'path': 'resources/probe_alien_order.xlsx'},
-    {'name': 'resources/rocket1_deact.png', 'path': 'resources/rocket1_deact.png'},
-    {'name': 'resources/payoff/payoff_41.csv', 'path': 'resources/payoff/payoff_41.csv'},
-    {'name': 'resources/alien3_a2.png', 'path': 'resources/alien3_a2.png'},
-    {'name': 'resources/rocket1_norm.png', 'path': 'resources/rocket1_norm.png'},
-    {'name': 'resources/rocket1_a2.png', 'path': 'resources/rocket1_a2.png'},
-    {'name': 'resources/blank.png', 'path': 'resources/blank.png'},
-    {'name': 'resources/payoff/payoff_23.csv', 'path': 'resources/payoff/payoff_23.csv'},
-    {'name': 'resources/alien4_deact.png', 'path': 'resources/alien4_deact.png'},
-    {'name': 'resources/tutrocket1_d.png', 'path': 'resources/tutrocket1_d.png'},
-    {'name': 'resources/payoff/payoff_test1.csv', 'path': 'resources/payoff/payoff_test1.csv'},
-    {'name': 'resources/tutalien1_d.png', 'path': 'resources/tutalien1_d.png'},
-    {'name': 'resources/post_purpleplanet.jpg', 'path': 'resources/post_purpleplanet.jpg'},
-    {'name': 'resources/black.png', 'path': 'resources/black.png'},
-    {'name': 'resources/alien1_a2.png', 'path': 'resources/alien1_a2.png'},
-    {'name': 'resources/earth.jpg', 'path': 'resources/earth.jpg'},
-    {'name': 'resources/rocket1_a1.png', 'path': 'resources/rocket1_a1.png'},
-    {'name': 'resources/tutalien4_a1.png', 'path': 'resources/tutalien4_a1.png'},
-    {'name': 'resources/payoff/payoff_32.csv', 'path': 'resources/payoff/payoff_32.csv'},
-    {'name': 'resources/alien1_deact.png', 'path': 'resources/alien1_deact.png'},
-    {'name': 'resources/tutalien4_a2.png', 'path': 'resources/tutalien4_a2.png'},
-    {'name': 'resources/alien4_norm.png', 'path': 'resources/alien4_norm.png'},
-    {'name': 'resources/payoff/payoff_3.csv', 'path': 'resources/payoff/payoff_3.csv'},
-    {'name': 'resources/tutalien4_s.png', 'path': 'resources/tutalien4_s.png'},
-    {'name': 'resources/tutalien3_s.png', 'path': 'resources/tutalien3_s.png'},
-    {'name': 'resources/TRY_02.csv', 'path': 'resources/TRY_02.csv'},
-    {'name': 'resources/tutalien2_a1.png', 'path': 'resources/tutalien2_a1.png'},
-    {'name': 'resources/rocket1_sp.png', 'path': 'resources/rocket1_sp.png'},
-    {'name': 'resources/payoff/payoff_13.csv', 'path': 'resources/payoff/payoff_13.csv'},
-    {'name': 'resources/tutalien4_d.png', 'path': 'resources/tutalien4_d.png'},
-    {'name': 'resources/alien3_sp.png', 'path': 'resources/alien3_sp.png'},
-    {'name': 'resources/alien4_a1.png', 'path': 'resources/alien4_a1.png'},
-    {'name': 'resources/tutrocket1_a2.png', 'path': 'resources/tutrocket1_a2.png'},
-    {'name': 'resources/tutrocket2_a1.png', 'path': 'resources/tutrocket2_a1.png'},
-    {'name': 'resources/payoff/payoff_11.csv', 'path': 'resources/payoff/payoff_11.csv'},
-    {'name': 'resources/alien1_norm.png', 'path': 'resources/alien1_norm.png'},
-    {'name': 'resources/tutalien1_a1.png', 'path': 'resources/tutalien1_a1.png'},
-    {'name': 'resources/alien1_sp.png', 'path': 'resources/alien1_sp.png'},
-    {'name': 'resources/tutalien3_a1.png', 'path': 'resources/tutalien3_a1.png'},
-    {'name': 'resources/tutrocket2_d.png', 'path': 'resources/tutrocket2_d.png'},
-    {'name': 'resources/rocket2_sp.png', 'path': 'resources/rocket2_sp.png'},
-    {'name': 'resources/payoff/payoff_4.csv', 'path': 'resources/payoff/payoff_4.csv'},
-    {'name': 'resources/payoff/payoff_12.csv', 'path': 'resources/payoff/payoff_12.csv'},
-    {'name': 'resources/TUTORIAL_01.xlsx', 'path': 'resources/TUTORIAL_01.xlsx'},
-    {'name': 'resources/alien3_a1.png', 'path': 'resources/alien3_a1.png'},
-    {'name': 'resources/empty_token.png', 'path': 'resources/empty_token.png'},
-    {'name': 'resources/tutrocket2_n.png', 'path': 'resources/tutrocket2_n.png'},
-    {'name': 'resources/payoff/payoff_22.csv', 'path': 'resources/payoff/payoff_22.csv'},
-    {'name': 'resources/alien2_a2.png', 'path': 'resources/alien2_a2.png'},
-    {'name': 'resources/tutalien1_a2.png', 'path': 'resources/tutalien1_a2.png'},
-    {'name': 'resources/payoff/payoff_2.csv', 'path': 'resources/payoff/payoff_2.csv'},
-    {'name': 'resources/rocket2_a1.png', 'path': 'resources/rocket2_a1.png'},
-    {'name': 'resources/payoff/payoff_21.csv', 'path': 'resources/payoff/payoff_21.csv'},
-    {'name': 'resources/payoff/payoff_test2.csv', 'path': 'resources/payoff/payoff_test2.csv'},
-    {'name': 'resources/alien2_sp.png', 'path': 'resources/alien2_sp.png'},
-    {'name': 'resources/tutrocket1_a1.png', 'path': 'resources/tutrocket1_a1.png'},
-    {'name': 'resources/tutalien2_s.png', 'path': 'resources/tutalien2_s.png'},
-    {'name': 'resources/tutalien4_n.png', 'path': 'resources/tutalien4_n.png'},
-    {'name': 'resources/TUTORIAL_04.csv', 'path': 'resources/TUTORIAL_04.csv'},
-    {'name': 'resources/payoff/payoff_31.csv', 'path': 'resources/payoff/payoff_31.csv'},
-    {'name': 'resources/payoff/payoff_44.csv', 'path': 'resources/payoff/payoff_44.csv'},
-    {'name': 'resources/rocket2_a2.png', 'path': 'resources/rocket2_a2.png'},
-    {'name': 'resources/alien1_a1.png', 'path': 'resources/alien1_a1.png'},
-    {'name': 'resources/redplanet.jpg', 'path': 'resources/redplanet.jpg'},
-    {'name': 'resources/alien2_norm.png', 'path': 'resources/alien2_norm.png'},
-    {'name': 'resources/alien2_a1.png', 'path': 'resources/alien2_a1.png'},
-    {'name': 'resources/payoff/payoff_33.csv', 'path': 'resources/payoff/payoff_33.csv'},
     {'name': 'resources/t.png', 'path': 'resources/t.png'},
-    {'name': 'resources/tutalien3_a2.png', 'path': 'resources/tutalien3_a2.png'},
-    {'name': 'resources/payoff/payoff_42.csv', 'path': 'resources/payoff/payoff_42.csv'},
-    {'name': 'resources/tutalien2_n.png', 'path': 'resources/tutalien2_n.png'},
-    {'name': 'resources/alien3_deact.png', 'path': 'resources/alien3_deact.png'},
-    {'name': 'resources/tutrocket1_n.png', 'path': 'resources/tutrocket1_n.png'},
-    {'name': 'resources/TUTORIAL_02.csv', 'path': 'resources/TUTORIAL_02.csv'},
+    {'name': 'resources/earth.jpg', 'path': 'resources/earth.jpg'},
+    {'name': 'resources/post_purpleplanet.jpg', 'path': 'resources/post_purpleplanet.jpg'},
+    {'name': 'resources/payoff/payoff_23.csv', 'path': 'resources/payoff/payoff_23.csv'},
     {'name': 'resources/tutrocket1_s.png', 'path': 'resources/tutrocket1_s.png'},
+    {'name': 'resources/rocket1_a2.png', 'path': 'resources/rocket1_a2.png'},
+    {'name': 'resources/payoff/payoff_42.csv', 'path': 'resources/payoff/payoff_42.csv'},
+    {'name': 'resources/payoff/payoff_13.csv', 'path': 'resources/payoff/payoff_13.csv'},
+    {'name': 'resources/tutalien1_d.png', 'path': 'resources/tutalien1_d.png'},
+    {'name': 'resources/tutalien2_d.png', 'path': 'resources/tutalien2_d.png'},
+    {'name': 'resources/payoff/payoff_3.csv', 'path': 'resources/payoff/payoff_3.csv'},
+    {'name': 'resources/payoff/payoff_21.csv', 'path': 'resources/payoff/payoff_21.csv'},
+    {'name': 'resources/tutrocket2_n.png', 'path': 'resources/tutrocket2_n.png'},
+    {'name': 'resources/payoff/payoff_1.csv', 'path': 'resources/payoff/payoff_1.csv'},
+    {'name': 'resources/probe_alien_order.xlsx', 'path': 'resources/probe_alien_order.xlsx'},
+    {'name': 'resources/tutalien3_n.png', 'path': 'resources/tutalien3_n.png'},
+    {'name': 'resources/tutrocket1_a1.png', 'path': 'resources/tutrocket1_a1.png'},
+    {'name': 'resources/tutyellowplanet.jpg', 'path': 'resources/tutyellowplanet.jpg'},
+    {'name': 'resources/rocket2_norm.png', 'path': 'resources/rocket2_norm.png'},
+    {'name': 'resources/rocket2_a1.png', 'path': 'resources/rocket2_a1.png'},
+    {'name': 'resources/tutrocket1_a2.png', 'path': 'resources/tutrocket1_a2.png'},
+    {'name': 'resources/rocket1_norm.png', 'path': 'resources/rocket1_norm.png'},
+    {'name': 'resources/tutrocket2_a2.png', 'path': 'resources/tutrocket2_a2.png'},
+    {'name': 'resources/purpleplanet.jpg', 'path': 'resources/purpleplanet.jpg'},
+    {'name': 'resources/tutalien2_s.png', 'path': 'resources/tutalien2_s.png'},
+    {'name': 'resources/tutrocket1_n.png', 'path': 'resources/tutrocket1_n.png'},
+    {'name': 'resources/rocket2_sp.png', 'path': 'resources/rocket2_sp.png'},
+    {'name': 'resources/TUTORIAL_01.xlsx', 'path': 'resources/TUTORIAL_01.xlsx'},
+    {'name': 'resources/rocket2_deact.png', 'path': 'resources/rocket2_deact.png'},
+    {'name': 'resources/alien4_a1.png', 'path': 'resources/alien4_a1.png'},
+    {'name': 'resources/payoff/payoff_44.csv', 'path': 'resources/payoff/payoff_44.csv'},
+    {'name': 'resources/alien2_a1.png', 'path': 'resources/alien2_a1.png'},
+    {'name': 'resources/alien4_norm.png', 'path': 'resources/alien4_norm.png'},
+    {'name': 'resources/tutalien4_d.png', 'path': 'resources/tutalien4_d.png'},
+    {'name': 'resources/payoff/payoff_12.csv', 'path': 'resources/payoff/payoff_12.csv'},
+    {'name': 'resources/tutgreenplanet.jpg', 'path': 'resources/tutgreenplanet.jpg'},
+    {'name': 'resources/payoff/payoff_41.csv', 'path': 'resources/payoff/payoff_41.csv'},
+    {'name': 'resources/empty_token.png', 'path': 'resources/empty_token.png'},
+    {'name': 'resources/tutrocket1_d.png', 'path': 'resources/tutrocket1_d.png'},
+    {'name': 'resources/tutalien3_s.png', 'path': 'resources/tutalien3_s.png'},
+    {'name': 'resources/payoff/payoff_test1.csv', 'path': 'resources/payoff/payoff_test1.csv'},
+    {'name': 'resources/alien2_sp.png', 'path': 'resources/alien2_sp.png'},
+    {'name': 'resources/tutalien4_a1.png', 'path': 'resources/tutalien4_a1.png'},
+    {'name': 'resources/alien4_deact.png', 'path': 'resources/alien4_deact.png'},
+    {'name': 'resources/tutalien3_a1.png', 'path': 'resources/tutalien3_a1.png'},
+    {'name': 'resources/alien3_a2.png', 'path': 'resources/alien3_a2.png'},
+    {'name': 'resources/payoff/payoff_11.csv', 'path': 'resources/payoff/payoff_11.csv'},
+    {'name': 'resources/tutalien1_a1.png', 'path': 'resources/tutalien1_a1.png'},
+    {'name': 'resources/redplanet.jpg', 'path': 'resources/redplanet.jpg'},
+    {'name': 'resources/tutrocket2_a1.png', 'path': 'resources/tutrocket2_a1.png'},
+    {'name': 'resources/tutalien1_s.png', 'path': 'resources/tutalien1_s.png'},
+    {'name': 'resources/alien2_a2.png', 'path': 'resources/alien2_a2.png'},
+    {'name': 'resources/rocket2_a2.png', 'path': 'resources/rocket2_a2.png'},
+    {'name': 'resources/tutalien2_n.png', 'path': 'resources/tutalien2_n.png'},
+    {'name': 'resources/TUTORIAL_04.csv', 'path': 'resources/TUTORIAL_04.csv'},
+    {'name': 'resources/payoff/payoff_33.csv', 'path': 'resources/payoff/payoff_33.csv'},
+    {'name': 'resources/payoff/payoff_22.csv', 'path': 'resources/payoff/payoff_22.csv'},
+    {'name': 'resources/alien1_sp.png', 'path': 'resources/alien1_sp.png'},
+    {'name': 'resources/alien1_norm.png', 'path': 'resources/alien1_norm.png'},
+    {'name': 'resources/tutalien3_a2.png', 'path': 'resources/tutalien3_a2.png'},
+    {'name': 'resources/alien4_sp.png', 'path': 'resources/alien4_sp.png'},
+    {'name': 'resources/tutalien4_n.png', 'path': 'resources/tutalien4_n.png'},
+    {'name': 'resources/post_redplanet.jpg', 'path': 'resources/post_redplanet.jpg'},
+    {'name': 'resources/tutalien4_a2.png', 'path': 'resources/tutalien4_a2.png'},
+    {'name': 'resources/alien3_a1.png', 'path': 'resources/alien3_a1.png'},
+    {'name': 'resources/rocket1_a1.png', 'path': 'resources/rocket1_a1.png'},
+    {'name': 'resources/TUTORIAL_02.csv', 'path': 'resources/TUTORIAL_02.csv'},
+    {'name': 'resources/post_test.xlsx', 'path': 'resources/post_test.xlsx'},
+    {'name': 'resources/tutalien1_n.png', 'path': 'resources/tutalien1_n.png'},
+    {'name': 'resources/alien1_deact.png', 'path': 'resources/alien1_deact.png'},
+    {'name': 'resources/payoff/payoff_2.csv', 'path': 'resources/payoff/payoff_2.csv'},
+    {'name': 'resources/alien3_deact.png', 'path': 'resources/alien3_deact.png'},
+    {'name': 'resources/alien2_deact.png', 'path': 'resources/alien2_deact.png'},
+    {'name': 'resources/payoff/payoff_4.csv', 'path': 'resources/payoff/payoff_4.csv'},
+    {'name': 'resources/tutrocket2_d.png', 'path': 'resources/tutrocket2_d.png'},
+    {'name': 'resources/tutalien2_a1.png', 'path': 'resources/tutalien2_a1.png'},
+    {'name': 'resources/blank.png', 'path': 'resources/blank.png'},
+    {'name': 'resources/rocket1_sp.png', 'path': 'resources/rocket1_sp.png'},
+    {'name': 'resources/alien1_a1.png', 'path': 'resources/alien1_a1.png'},
+    {'name': 'resources/tutalien1_a2.png', 'path': 'resources/tutalien1_a2.png'},
+    {'name': 'resources/alien3_norm.png', 'path': 'resources/alien3_norm.png'},
+    {'name': 'resources/alien4_a2.png', 'path': 'resources/alien4_a2.png'},
+    {'name': 'resources/tutalien2_a2.png', 'path': 'resources/tutalien2_a2.png'},
+    {'name': 'resources/payoff/payoff_31.csv', 'path': 'resources/payoff/payoff_31.csv'},
+    {'name': 'resources/payoff/payoff_32.csv', 'path': 'resources/payoff/payoff_32.csv'},
+    {'name': 'resources/rocket1_deact.png', 'path': 'resources/rocket1_deact.png'},
+    {'name': 'resources/black.png', 'path': 'resources/black.png'},
+    {'name': 'resources/alien3_sp.png', 'path': 'resources/alien3_sp.png'},
+    {'name': 'resources/payoff/payoff_test2.csv', 'path': 'resources/payoff/payoff_test2.csv'},
+    {'name': 'resources/TRY_02.csv', 'path': 'resources/TRY_02.csv'},
     {'name': 'resources/tutalien3_d.png', 'path': 'resources/tutalien3_d.png'},
-    {'name': 'resources/alien3_norm.png', 'path': 'resources/alien3_norm.png'}
+    {'name': 'resources/alien2_norm.png', 'path': 'resources/alien2_norm.png'},
+    {'name': 'resources/payoff/payoff_test3.csv', 'path': 'resources/payoff/payoff_test3.csv'},
+    {'name': 'resources/tutalien4_s.png', 'path': 'resources/tutalien4_s.png'},
+    {'name': 'resources/tutrocket2_s.png', 'path': 'resources/tutrocket2_s.png'},
+    {'name': 'resources/alien1_a2.png', 'path': 'resources/alien1_a2.png'}
   ]
 });
 
@@ -527,6 +527,8 @@ var slider;
 var transitionClock;
 var text_transition;
 var key_resp_transition;
+var fixationClock;
+var fixation_cross;
 var PROBEClock;
 var probe_question;
 var l_img_probe;
@@ -1843,6 +1845,19 @@ async function experimentInit() {
   
   key_resp_transition = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
+  // Initialize components for Routine "fixation"
+  fixationClock = new util.Clock();
+  fixation_cross = new visual.ShapeStim ({
+    win: psychoJS.window, name: 'fixation_cross', 
+    vertices: 'cross', size:[0.3, 0.3],
+    ori: 0.0, pos: [0, 0],
+    lineWidth: 1.0, 
+    colorSpace: 'rgb',
+    lineColor: new util.Color('white'),
+    fillColor: new util.Color('white'),
+    opacity: undefined, depth: 0, interpolate: true,
+  });
+  
   // Initialize components for Routine "PROBE"
   PROBEClock = new util.Clock();
   probe_question = new visual.TextStim({
@@ -2704,6 +2719,9 @@ function probe_loopLoopBegin(probe_loopLoopScheduler, snapshot) {
     for (const thisProbe_loop of probe_loop) {
       snapshot = probe_loop.getSnapshot();
       probe_loopLoopScheduler.add(importConditions(snapshot));
+      probe_loopLoopScheduler.add(fixationRoutineBegin(snapshot));
+      probe_loopLoopScheduler.add(fixationRoutineEachFrame());
+      probe_loopLoopScheduler.add(fixationRoutineEnd(snapshot));
       probe_loopLoopScheduler.add(PROBERoutineBegin(snapshot));
       probe_loopLoopScheduler.add(PROBERoutineEachFrame());
       probe_loopLoopScheduler.add(PROBERoutineEnd(snapshot));
@@ -4669,7 +4687,7 @@ function PRACTICE_rocketRoutineBegin(snapshot) {
     PRACTICE_rocketClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(3.950000);
+    routineTimer.add(3.000000);
     // update component parameters for each repeat
     background_practice.setImage('resources/earth.jpg');
     key_resp_practice.keys = undefined;
@@ -4707,7 +4725,7 @@ function PRACTICE_rocketRoutineEachFrame() {
       background_practice.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (background_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       background_practice.setAutoDraw(false);
     }
@@ -4721,7 +4739,7 @@ function PRACTICE_rocketRoutineEachFrame() {
       l_rocket_practice.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (l_rocket_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       l_rocket_practice.setAutoDraw(false);
     }
@@ -4735,7 +4753,7 @@ function PRACTICE_rocketRoutineEachFrame() {
       r_rocket_practice.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (r_rocket_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       r_rocket_practice.setAutoDraw(false);
     }
@@ -4752,7 +4770,7 @@ function PRACTICE_rocketRoutineEachFrame() {
       psychoJS.window.callOnFlip(function() { key_resp_practice.clearEvents(); });
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (key_resp_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       key_resp_practice.status = PsychoJS.Status.FINISHED;
   }
@@ -5105,7 +5123,7 @@ function PRACTICE_alienRoutineBegin(snapshot) {
     PRACTICE_alienClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(3.950000);
+    routineTimer.add(3.000000);
     // update component parameters for each repeat
     key_resp_practice_alien.keys = undefined;
     key_resp_practice_alien.rt = undefined;
@@ -5143,7 +5161,7 @@ function PRACTICE_alienRoutineEachFrame() {
       bg.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (bg.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       bg.setAutoDraw(false);
     }
@@ -5157,7 +5175,7 @@ function PRACTICE_alienRoutineEachFrame() {
       imgcenter_practice.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (imgcenter_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       imgcenter_practice.setAutoDraw(false);
     }
@@ -5171,7 +5189,7 @@ function PRACTICE_alienRoutineEachFrame() {
       left_alien_practice.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (left_alien_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       left_alien_practice.setAutoDraw(false);
     }
@@ -5185,7 +5203,7 @@ function PRACTICE_alienRoutineEachFrame() {
       right_alien_practice.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (right_alien_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       right_alien_practice.setAutoDraw(false);
     }
@@ -5202,7 +5220,7 @@ function PRACTICE_alienRoutineEachFrame() {
       key_resp_practice_alien.clearEvents();
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (key_resp_practice_alien.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       key_resp_practice_alien.status = PsychoJS.Status.FINISHED;
   }
@@ -5276,7 +5294,7 @@ function PRACTICE_alien_selectionRoutineBegin(snapshot) {
     PRACTICE_alien_selectionClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(1.500000);
+    routineTimer.add(2.000000);
     // update component parameters for each repeat
     // Run 'Begin Routine' code from code_practice_alien_selection
     // precreate a variable
@@ -5520,7 +5538,7 @@ function PRACTICE_alien_selectionRoutineEachFrame() {
       background_practice_alien_selection.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 1.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (background_practice_alien_selection.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       background_practice_alien_selection.setAutoDraw(false);
     }
@@ -5618,7 +5636,7 @@ function PRACTICE_alien_selectionRoutineEachFrame() {
       img_practice_alien_result.setAutoDraw(true);
     }
 
-    frameRemains = 0.91 + 0.59 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.91 + 1.09 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (img_practice_alien_result.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       img_practice_alien_result.setAutoDraw(false);
     }
@@ -5632,7 +5650,7 @@ function PRACTICE_alien_selectionRoutineEachFrame() {
       gold_practice.setAutoDraw(true);
     }
 
-    frameRemains = 1 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 1 + 1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (gold_practice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       gold_practice.setAutoDraw(false);
     }
@@ -6515,7 +6533,7 @@ function EXP_rocketRoutineBegin(snapshot) {
     EXP_rocketClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(3.950000);
+    routineTimer.add(3.000000);
     // update component parameters for each repeat
     // Run 'Begin Routine' code from code_exp_rocket
     // save payoff info in each row for simplified analysis
@@ -6560,7 +6578,7 @@ function EXP_rocketRoutineEachFrame() {
       background_exp.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (background_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       background_exp.setAutoDraw(false);
     }
@@ -6574,7 +6592,7 @@ function EXP_rocketRoutineEachFrame() {
       l_rocket_exp.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (l_rocket_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       l_rocket_exp.setAutoDraw(false);
     }
@@ -6588,7 +6606,7 @@ function EXP_rocketRoutineEachFrame() {
       r_rocket_exp.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (r_rocket_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       r_rocket_exp.setAutoDraw(false);
     }
@@ -6605,7 +6623,7 @@ function EXP_rocketRoutineEachFrame() {
       psychoJS.window.callOnFlip(function() { key_resp_exp.clearEvents(); });
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (key_resp_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       key_resp_exp.status = PsychoJS.Status.FINISHED;
   }
@@ -6982,7 +7000,7 @@ function EXP_alienRoutineBegin(snapshot) {
     EXP_alienClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(3.950000);
+    routineTimer.add(3.000000);
     // update component parameters for each repeat
     key_resp_exp_alien.keys = undefined;
     key_resp_exp_alien.rt = undefined;
@@ -7020,7 +7038,7 @@ function EXP_alienRoutineEachFrame() {
       bg_exp.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (bg_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       bg_exp.setAutoDraw(false);
     }
@@ -7034,7 +7052,7 @@ function EXP_alienRoutineEachFrame() {
       imgcenter_exp.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (imgcenter_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       imgcenter_exp.setAutoDraw(false);
     }
@@ -7048,7 +7066,7 @@ function EXP_alienRoutineEachFrame() {
       left_alien_exp.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (left_alien_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       left_alien_exp.setAutoDraw(false);
     }
@@ -7062,7 +7080,7 @@ function EXP_alienRoutineEachFrame() {
       right_alien_exp.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (right_alien_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       right_alien_exp.setAutoDraw(false);
     }
@@ -7079,7 +7097,7 @@ function EXP_alienRoutineEachFrame() {
       psychoJS.window.callOnFlip(function() { key_resp_exp_alien.clearEvents(); });
     }
 
-    frameRemains = 0.0 + 3.95 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (key_resp_exp_alien.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       key_resp_exp_alien.status = PsychoJS.Status.FINISHED;
   }
@@ -7397,7 +7415,7 @@ function EXP_alien_selectionRoutineBegin(snapshot) {
     EXP_alien_selectionClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(1.500000);
+    routineTimer.add(2.000000);
     // update component parameters for each repeat
     // keep track of which components have finished
     EXP_alien_selectionComponents = [];
@@ -7436,7 +7454,7 @@ function EXP_alien_selectionRoutineEachFrame() {
       background_exp_alien_selection.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 1.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (background_exp_alien_selection.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       background_exp_alien_selection.setAutoDraw(false);
     }
@@ -7534,7 +7552,7 @@ function EXP_alien_selectionRoutineEachFrame() {
       img_exp_alien_result.setAutoDraw(true);
     }
 
-    frameRemains = 0.91 + 0.59 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.91 + 1.09 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (img_exp_alien_result.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       img_exp_alien_result.setAutoDraw(false);
     }
@@ -7548,7 +7566,7 @@ function EXP_alien_selectionRoutineEachFrame() {
       gold_exp.setAutoDraw(true);
     }
 
-    frameRemains = 1 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 1 + 1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (gold_exp.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       gold_exp.setAutoDraw(false);
     }
@@ -8190,6 +8208,102 @@ function transitionRoutineEnd(snapshot) {
 }
 
 
+var fixation_duration;
+var fixationComponents;
+function fixationRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'fixation' ---
+    t = 0;
+    fixationClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    // update component parameters for each repeat
+    // Run 'Begin Routine' code from code_fixation
+    // define fixation duration as a random number between 0.3 and 0.5
+    fixation_duration = 0.3 + Math.random() * (0.5 - 0.3);
+    
+    // keep track of which components have finished
+    fixationComponents = [];
+    fixationComponents.push(fixation_cross);
+    
+    for (const thisComponent of fixationComponents)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function fixationRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'fixation' ---
+    // get current time
+    t = fixationClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *fixation_cross* updates
+    if (t >= 0.0 && fixation_cross.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      fixation_cross.tStart = t;  // (not accounting for frame time here)
+      fixation_cross.frameNStart = frameN;  // exact frame index
+      
+      fixation_cross.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + fixation_duration - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (fixation_cross.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      fixation_cross.setAutoDraw(false);
+    }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of fixationComponents)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function fixationRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'fixation' ---
+    for (const thisComponent of fixationComponents) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    // the Routine "fixation" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
 var _key_resp_probe_allKeys;
 var static_probabilities;
 var static_probability_l;
@@ -8239,14 +8353,13 @@ function PROBERoutineBegin(snapshot) {
     psychoJS.experiment.addData("phase", "probe");
     psychoJS.experiment.addData("static_probability_left", static_probability_l);
     psychoJS.experiment.addData("static_probability_right", static_probability_r);
+    accuracy = "none";
     if ((static_probability_l > static_probability_r)) {
         if ((key_resp_probe.keys === "x")) {
             accuracy = 1;
         } else {
             if ((key_resp_probe.keys === "m")) {
                 accuracy = 0;
-            } else {
-                accuracy = "none";
             }
         }
     }
@@ -8256,8 +8369,6 @@ function PROBERoutineBegin(snapshot) {
         } else {
             if ((key_resp_probe.keys === "x")) {
                 accuracy = 0;
-            } else {
-                accuracy = "none";
             }
         }
     }
@@ -8541,6 +8652,8 @@ async function quitPsychoJS(message, isCompleted) {
   if (psychoJS.experiment.isEntryEmpty()) {
     psychoJS.experiment.nextEntry();
   }
+  
+  
   
   
   
