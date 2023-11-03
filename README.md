@@ -7,7 +7,7 @@ This project presents a space-themed online version of the Two-Step Task, design
 The Two-Step Task with Aliens is originally created by [Decker et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4899156/). The materials and design used here have been adapted from [Nussenbaum et al. (2020)](https://online.ucpress.edu/collabra/article/6/1/17213/114338?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Collabra%253A_Psychology_TrendMD_0) and resources available from the [Nivlab Demos](https://nivlab.github.io/jspsych-demos/).
 
 ### Project
-No Way Around But Through: Mechanisms of Persistence and Remission of Habits in Anorexia Nervosa by Dr. Joanna Steinglass and Dr. Karin Foerde.
+[No Way Around But Through: Mechanisms of Persistence and Remission of Habits in Anorexia Nervosa](https://reporter.nih.gov/search/Y28Vpsk43UyecJuojPrFgA/project-details/10585957) by Dr. Joanna Steinglass and Dr. Karin Foerde.
 
 ## Phases of the Task
 The task is divided into four main phases:
