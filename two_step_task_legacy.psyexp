@@ -4732,7 +4732,7 @@
     <LoopInitiator loopType="TrialHandler" name="loop_exp">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$'resources/payoff/payoff_test' + '1' + '.csv'" valType="file"/>
+      <Param name="conditionsFile" updates="None" val="$'resources/payoff/payoff_' + payoff + '.csv'" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>
