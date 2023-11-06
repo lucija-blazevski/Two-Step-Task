@@ -130,13 +130,6 @@ flowScheduler.add(loop_expLoopEnd);
 flowScheduler.add(total_goldRoutineBegin());
 flowScheduler.add(total_goldRoutineEachFrame());
 flowScheduler.add(total_goldRoutineEnd());
-flowScheduler.add(transition_to_postRoutineBegin());
-flowScheduler.add(transition_to_postRoutineEachFrame());
-flowScheduler.add(transition_to_postRoutineEnd());
-const post_loopLoopScheduler = new Scheduler(psychoJS);
-flowScheduler.add(post_loopLoopBegin(post_loopLoopScheduler));
-flowScheduler.add(post_loopLoopScheduler);
-flowScheduler.add(post_loopLoopEnd);
 flowScheduler.add(transitionRoutineBegin());
 flowScheduler.add(transitionRoutineEachFrame());
 flowScheduler.add(transitionRoutineEnd());
@@ -144,6 +137,13 @@ const probe_loopLoopScheduler = new Scheduler(psychoJS);
 flowScheduler.add(probe_loopLoopBegin(probe_loopLoopScheduler));
 flowScheduler.add(probe_loopLoopScheduler);
 flowScheduler.add(probe_loopLoopEnd);
+flowScheduler.add(transition_to_postRoutineBegin());
+flowScheduler.add(transition_to_postRoutineEachFrame());
+flowScheduler.add(transition_to_postRoutineEnd());
+const post_loopLoopScheduler = new Scheduler(psychoJS);
+flowScheduler.add(post_loopLoopBegin(post_loopLoopScheduler));
+flowScheduler.add(post_loopLoopScheduler);
+flowScheduler.add(post_loopLoopEnd);
 flowScheduler.add(endRoutineBegin());
 flowScheduler.add(endRoutineEachFrame());
 flowScheduler.add(endRoutineEnd());
@@ -156,102 +156,102 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'resources/alien1_norm.png', 'path': 'resources/alien1_norm.png'},
-    {'name': 'resources/rocket2_a2.png', 'path': 'resources/rocket2_a2.png'},
-    {'name': 'resources/alien1_sp.png', 'path': 'resources/alien1_sp.png'},
-    {'name': 'resources/black.png', 'path': 'resources/black.png'},
-    {'name': 'resources/payoff/payoff_1.csv', 'path': 'resources/payoff/payoff_1.csv'},
-    {'name': 'resources/alien3_deact.png', 'path': 'resources/alien3_deact.png'},
-    {'name': 'resources/tutrocket1_s.png', 'path': 'resources/tutrocket1_s.png'},
-    {'name': 'resources/payoff/payoff_31.csv', 'path': 'resources/payoff/payoff_31.csv'},
-    {'name': 'resources/alien4_a1.png', 'path': 'resources/alien4_a1.png'},
-    {'name': 'resources/tutalien1_d.png', 'path': 'resources/tutalien1_d.png'},
-    {'name': 'resources/rocket2_norm.png', 'path': 'resources/rocket2_norm.png'},
-    {'name': 'resources/alien1_a2.png', 'path': 'resources/alien1_a2.png'},
-    {'name': 'resources/payoff/payoff_41.csv', 'path': 'resources/payoff/payoff_41.csv'},
-    {'name': 'resources/tutrocket1_n.png', 'path': 'resources/tutrocket1_n.png'},
-    {'name': 'resources/rocket2_a1.png', 'path': 'resources/rocket2_a1.png'},
-    {'name': 'resources/redplanet.jpg', 'path': 'resources/redplanet.jpg'},
-    {'name': 'resources/tutalien3_a1.png', 'path': 'resources/tutalien3_a1.png'},
-    {'name': 'resources/payoff/payoff_32.csv', 'path': 'resources/payoff/payoff_32.csv'},
-    {'name': 'resources/payoff/payoff_11.csv', 'path': 'resources/payoff/payoff_11.csv'},
-    {'name': 'resources/payoff/payoff_2.csv', 'path': 'resources/payoff/payoff_2.csv'},
-    {'name': 'resources/alien3_sp.png', 'path': 'resources/alien3_sp.png'},
-    {'name': 'resources/tutalien3_a2.png', 'path': 'resources/tutalien3_a2.png'},
-    {'name': 'resources/tutrocket2_a1.png', 'path': 'resources/tutrocket2_a1.png'},
-    {'name': 'resources/tutyellowplanet.jpg', 'path': 'resources/tutyellowplanet.jpg'},
-    {'name': 'resources/post_purpleplanet.jpg', 'path': 'resources/post_purpleplanet.jpg'},
-    {'name': 'resources/tutalien4_a1.png', 'path': 'resources/tutalien4_a1.png'},
-    {'name': 'resources/tutalien4_a2.png', 'path': 'resources/tutalien4_a2.png'},
-    {'name': 'resources/tutalien1_a1.png', 'path': 'resources/tutalien1_a1.png'},
-    {'name': 'resources/empty_token.png', 'path': 'resources/empty_token.png'},
-    {'name': 'resources/payoff/payoff_3.csv', 'path': 'resources/payoff/payoff_3.csv'},
-    {'name': 'resources/purpleplanet.jpg', 'path': 'resources/purpleplanet.jpg'},
-    {'name': 'resources/alien2_a2.png', 'path': 'resources/alien2_a2.png'},
-    {'name': 'resources/tutrocket2_d.png', 'path': 'resources/tutrocket2_d.png'},
-    {'name': 'resources/payoff/payoff_33.csv', 'path': 'resources/payoff/payoff_33.csv'},
-    {'name': 'resources/alien1_deact.png', 'path': 'resources/alien1_deact.png'},
-    {'name': 'resources/payoff/payoff_test1.csv', 'path': 'resources/payoff/payoff_test1.csv'},
-    {'name': 'resources/TUTORIAL_01.xlsx', 'path': 'resources/TUTORIAL_01.xlsx'},
-    {'name': 'resources/payoff/payoff_23.csv', 'path': 'resources/payoff/payoff_23.csv'},
-    {'name': 'resources/tutrocket1_a2.png', 'path': 'resources/tutrocket1_a2.png'},
-    {'name': 'resources/payoff/payoff_13.csv', 'path': 'resources/payoff/payoff_13.csv'},
-    {'name': 'resources/alien3_a2.png', 'path': 'resources/alien3_a2.png'},
-    {'name': 'resources/tutalien2_n.png', 'path': 'resources/tutalien2_n.png'},
-    {'name': 'resources/payoff/payoff_44.csv', 'path': 'resources/payoff/payoff_44.csv'},
-    {'name': 'resources/post_test.xlsx', 'path': 'resources/post_test.xlsx'},
-    {'name': 'resources/rocket1_norm.png', 'path': 'resources/rocket1_norm.png'},
-    {'name': 'resources/tutalien2_a1.png', 'path': 'resources/tutalien2_a1.png'},
-    {'name': 'resources/rocket1_a1.png', 'path': 'resources/rocket1_a1.png'},
-    {'name': 'resources/payoff/payoff_test3.csv', 'path': 'resources/payoff/payoff_test3.csv'},
-    {'name': 'resources/alien2_norm.png', 'path': 'resources/alien2_norm.png'},
-    {'name': 'resources/tutalien3_s.png', 'path': 'resources/tutalien3_s.png'},
-    {'name': 'resources/tutalien1_s.png', 'path': 'resources/tutalien1_s.png'},
-    {'name': 'resources/tutalien1_a2.png', 'path': 'resources/tutalien1_a2.png'},
-    {'name': 'resources/rocket2_deact.png', 'path': 'resources/rocket2_deact.png'},
-    {'name': 'resources/alien3_a1.png', 'path': 'resources/alien3_a1.png'},
-    {'name': 'resources/rocket1_deact.png', 'path': 'resources/rocket1_deact.png'},
-    {'name': 'resources/payoff/payoff_42.csv', 'path': 'resources/payoff/payoff_42.csv'},
-    {'name': 'resources/rocket1_sp.png', 'path': 'resources/rocket1_sp.png'},
-    {'name': 'resources/alien2_sp.png', 'path': 'resources/alien2_sp.png'},
-    {'name': 'resources/alien4_a2.png', 'path': 'resources/alien4_a2.png'},
-    {'name': 'resources/tutrocket1_a1.png', 'path': 'resources/tutrocket1_a1.png'},
+    {'name': 'resources/tutalien2_s.png', 'path': 'resources/tutalien2_s.png'},
     {'name': 'resources/earth.jpg', 'path': 'resources/earth.jpg'},
-    {'name': 'resources/tutrocket2_s.png', 'path': 'resources/tutrocket2_s.png'},
+    {'name': 'resources/alien4_a2.png', 'path': 'resources/alien4_a2.png'},
+    {'name': 'resources/blank.png', 'path': 'resources/blank.png'},
+    {'name': 'resources/payoff/payoff_11.csv', 'path': 'resources/payoff/payoff_11.csv'},
+    {'name': 'resources/rocket1_norm.png', 'path': 'resources/rocket1_norm.png'},
+    {'name': 'resources/payoff/payoff_2.csv', 'path': 'resources/payoff/payoff_2.csv'},
+    {'name': 'resources/payoff/payoff_33.csv', 'path': 'resources/payoff/payoff_33.csv'},
+    {'name': 'resources/tutgreenplanet.jpg', 'path': 'resources/tutgreenplanet.jpg'},
+    {'name': 'resources/payoff/payoff_41.csv', 'path': 'resources/payoff/payoff_41.csv'},
+    {'name': 'resources/tutrocket1_a1.png', 'path': 'resources/tutrocket1_a1.png'},
+    {'name': 'resources/tutalien1_s.png', 'path': 'resources/tutalien1_s.png'},
+    {'name': 'resources/t.png', 'path': 'resources/t.png'},
+    {'name': 'resources/tutalien4_a2.png', 'path': 'resources/tutalien4_a2.png'},
+    {'name': 'resources/alien1_a2.png', 'path': 'resources/alien1_a2.png'},
+    {'name': 'resources/alien4_sp.png', 'path': 'resources/alien4_sp.png'},
+    {'name': 'resources/payoff/payoff_13.csv', 'path': 'resources/payoff/payoff_13.csv'},
+    {'name': 'resources/tutyellowplanet.jpg', 'path': 'resources/tutyellowplanet.jpg'},
+    {'name': 'resources/black.png', 'path': 'resources/black.png'},
+    {'name': 'resources/payoff/payoff_31.csv', 'path': 'resources/payoff/payoff_31.csv'},
+    {'name': 'resources/payoff/payoff_4.csv', 'path': 'resources/payoff/payoff_4.csv'},
+    {'name': 'resources/rocket2_sp.png', 'path': 'resources/rocket2_sp.png'},
+    {'name': 'resources/tutalien3_s.png', 'path': 'resources/tutalien3_s.png'},
+    {'name': 'resources/tutrocket1_a2.png', 'path': 'resources/tutrocket1_a2.png'},
+    {'name': 'resources/alien2_norm.png', 'path': 'resources/alien2_norm.png'},
+    {'name': 'resources/alien1_a1.png', 'path': 'resources/alien1_a1.png'},
+    {'name': 'resources/tutrocket2_a2.png', 'path': 'resources/tutrocket2_a2.png'},
+    {'name': 'resources/payoff/payoff_test3.csv', 'path': 'resources/payoff/payoff_test3.csv'},
+    {'name': 'resources/tutalien1_a2.png', 'path': 'resources/tutalien1_a2.png'},
+    {'name': 'resources/alien3_a1.png', 'path': 'resources/alien3_a1.png'},
+    {'name': 'resources/TUTORIAL_04.csv', 'path': 'resources/TUTORIAL_04.csv'},
+    {'name': 'resources/tutalien1_n.png', 'path': 'resources/tutalien1_n.png'},
+    {'name': 'resources/tutrocket1_d.png', 'path': 'resources/tutrocket1_d.png'},
+    {'name': 'resources/tutalien2_a2.png', 'path': 'resources/tutalien2_a2.png'},
+    {'name': 'resources/empty_token.png', 'path': 'resources/empty_token.png'},
+    {'name': 'resources/alien2_a2.png', 'path': 'resources/alien2_a2.png'},
+    {'name': 'resources/rocket1_a2.png', 'path': 'resources/rocket1_a2.png'},
+    {'name': 'resources/payoff/payoff_12.csv', 'path': 'resources/payoff/payoff_12.csv'},
+    {'name': 'resources/tutrocket2_n.png', 'path': 'resources/tutrocket2_n.png'},
+    {'name': 'resources/alien4_norm.png', 'path': 'resources/alien4_norm.png'},
+    {'name': 'resources/post_test.xlsx', 'path': 'resources/post_test.xlsx'},
+    {'name': 'resources/tutalien1_d.png', 'path': 'resources/tutalien1_d.png'},
+    {'name': 'resources/probe_alien_order.xlsx', 'path': 'resources/probe_alien_order.xlsx'},
+    {'name': 'resources/alien1_deact.png', 'path': 'resources/alien1_deact.png'},
+    {'name': 'resources/alien3_sp.png', 'path': 'resources/alien3_sp.png'},
+    {'name': 'resources/tutrocket1_s.png', 'path': 'resources/tutrocket1_s.png'},
+    {'name': 'resources/payoff/payoff_3.csv', 'path': 'resources/payoff/payoff_3.csv'},
+    {'name': 'resources/tutrocket2_a1.png', 'path': 'resources/tutrocket2_a1.png'},
+    {'name': 'resources/payoff/payoff_44.csv', 'path': 'resources/payoff/payoff_44.csv'},
+    {'name': 'resources/tutalien3_n.png', 'path': 'resources/tutalien3_n.png'},
+    {'name': 'resources/rocket2_deact.png', 'path': 'resources/rocket2_deact.png'},
+    {'name': 'resources/alien2_sp.png', 'path': 'resources/alien2_sp.png'},
+    {'name': 'resources/tutalien3_a1.png', 'path': 'resources/tutalien3_a1.png'},
+    {'name': 'resources/rocket1_a1.png', 'path': 'resources/rocket1_a1.png'},
+    {'name': 'resources/rocket2_a2.png', 'path': 'resources/rocket2_a2.png'},
+    {'name': 'resources/payoff/payoff_23.csv', 'path': 'resources/payoff/payoff_23.csv'},
+    {'name': 'resources/purpleplanet.jpg', 'path': 'resources/purpleplanet.jpg'},
+    {'name': 'resources/post_redplanet.jpg', 'path': 'resources/post_redplanet.jpg'},
+    {'name': 'resources/alien3_deact.png', 'path': 'resources/alien3_deact.png'},
+    {'name': 'resources/rocket1_sp.png', 'path': 'resources/rocket1_sp.png'},
+    {'name': 'resources/redplanet.jpg', 'path': 'resources/redplanet.jpg'},
+    {'name': 'resources/alien2_deact.png', 'path': 'resources/alien2_deact.png'},
+    {'name': 'resources/tutalien2_n.png', 'path': 'resources/tutalien2_n.png'},
+    {'name': 'resources/alien2_a1.png', 'path': 'resources/alien2_a1.png'},
+    {'name': 'resources/payoff/payoff_32.csv', 'path': 'resources/payoff/payoff_32.csv'},
+    {'name': 'resources/TRY_02.csv', 'path': 'resources/TRY_02.csv'},
+    {'name': 'resources/rocket1_deact.png', 'path': 'resources/rocket1_deact.png'},
+    {'name': 'resources/payoff/payoff_test2.csv', 'path': 'resources/payoff/payoff_test2.csv'},
+    {'name': 'resources/tutalien4_a1.png', 'path': 'resources/tutalien4_a1.png'},
+    {'name': 'resources/rocket2_norm.png', 'path': 'resources/rocket2_norm.png'},
+    {'name': 'resources/payoff/payoff_22.csv', 'path': 'resources/payoff/payoff_22.csv'},
+    {'name': 'resources/tutalien3_d.png', 'path': 'resources/tutalien3_d.png'},
+    {'name': 'resources/tutrocket1_n.png', 'path': 'resources/tutrocket1_n.png'},
+    {'name': 'resources/alien1_norm.png', 'path': 'resources/alien1_norm.png'},
+    {'name': 'resources/TUTORIAL_01.xlsx', 'path': 'resources/TUTORIAL_01.xlsx'},
+    {'name': 'resources/post_purpleplanet.jpg', 'path': 'resources/post_purpleplanet.jpg'},
+    {'name': 'resources/payoff/payoff_1.csv', 'path': 'resources/payoff/payoff_1.csv'},
+    {'name': 'resources/tutalien1_a1.png', 'path': 'resources/tutalien1_a1.png'},
+    {'name': 'resources/payoff/payoff_21.csv', 'path': 'resources/payoff/payoff_21.csv'},
+    {'name': 'resources/payoff/payoff_42.csv', 'path': 'resources/payoff/payoff_42.csv'},
+    {'name': 'resources/alien3_a2.png', 'path': 'resources/alien3_a2.png'},
+    {'name': 'resources/tutalien2_a1.png', 'path': 'resources/tutalien2_a1.png'},
+    {'name': 'resources/alien3_norm.png', 'path': 'resources/alien3_norm.png'},
+    {'name': 'resources/tutalien4_d.png', 'path': 'resources/tutalien4_d.png'},
+    {'name': 'resources/rocket2_a1.png', 'path': 'resources/rocket2_a1.png'},
+    {'name': 'resources/alien1_sp.png', 'path': 'resources/alien1_sp.png'},
+    {'name': 'resources/tutalien4_s.png', 'path': 'resources/tutalien4_s.png'},
+    {'name': 'resources/alien4_a1.png', 'path': 'resources/alien4_a1.png'},
     {'name': 'resources/TUTORIAL_02.csv', 'path': 'resources/TUTORIAL_02.csv'},
     {'name': 'resources/alien4_deact.png', 'path': 'resources/alien4_deact.png'},
-    {'name': 'resources/payoff/payoff_test2.csv', 'path': 'resources/payoff/payoff_test2.csv'},
-    {'name': 'resources/tutalien4_s.png', 'path': 'resources/tutalien4_s.png'},
-    {'name': 'resources/alien2_a1.png', 'path': 'resources/alien2_a1.png'},
-    {'name': 'resources/TRY_02.csv', 'path': 'resources/TRY_02.csv'},
-    {'name': 'resources/tutalien2_s.png', 'path': 'resources/tutalien2_s.png'},
-    {'name': 'resources/tutalien2_a2.png', 'path': 'resources/tutalien2_a2.png'},
-    {'name': 'resources/tutrocket1_d.png', 'path': 'resources/tutrocket1_d.png'},
-    {'name': 'resources/tutalien3_n.png', 'path': 'resources/tutalien3_n.png'},
-    {'name': 'resources/alien4_norm.png', 'path': 'resources/alien4_norm.png'},
-    {'name': 'resources/tutalien1_n.png', 'path': 'resources/tutalien1_n.png'},
-    {'name': 'resources/payoff/payoff_22.csv', 'path': 'resources/payoff/payoff_22.csv'},
-    {'name': 'resources/tutalien4_n.png', 'path': 'resources/tutalien4_n.png'},
-    {'name': 'resources/probe_alien_order.xlsx', 'path': 'resources/probe_alien_order.xlsx'},
-    {'name': 'resources/tutgreenplanet.jpg', 'path': 'resources/tutgreenplanet.jpg'},
-    {'name': 'resources/payoff/payoff_4.csv', 'path': 'resources/payoff/payoff_4.csv'},
-    {'name': 'resources/alien2_deact.png', 'path': 'resources/alien2_deact.png'},
-    {'name': 'resources/blank.png', 'path': 'resources/blank.png'},
-    {'name': 'resources/tutalien4_d.png', 'path': 'resources/tutalien4_d.png'},
-    {'name': 'resources/payoff/payoff_21.csv', 'path': 'resources/payoff/payoff_21.csv'},
-    {'name': 'resources/tutrocket2_n.png', 'path': 'resources/tutrocket2_n.png'},
-    {'name': 'resources/tutrocket2_a2.png', 'path': 'resources/tutrocket2_a2.png'},
-    {'name': 'resources/alien1_a1.png', 'path': 'resources/alien1_a1.png'},
-    {'name': 'resources/payoff/payoff_12.csv', 'path': 'resources/payoff/payoff_12.csv'},
-    {'name': 'resources/rocket1_a2.png', 'path': 'resources/rocket1_a2.png'},
+    {'name': 'resources/payoff/payoff_test1.csv', 'path': 'resources/payoff/payoff_test1.csv'},
     {'name': 'resources/tutalien2_d.png', 'path': 'resources/tutalien2_d.png'},
-    {'name': 'resources/post_redplanet.jpg', 'path': 'resources/post_redplanet.jpg'},
-    {'name': 'resources/tutalien3_d.png', 'path': 'resources/tutalien3_d.png'},
-    {'name': 'resources/alien4_sp.png', 'path': 'resources/alien4_sp.png'},
-    {'name': 'resources/t.png', 'path': 'resources/t.png'},
-    {'name': 'resources/TUTORIAL_04.csv', 'path': 'resources/TUTORIAL_04.csv'},
-    {'name': 'resources/rocket2_sp.png', 'path': 'resources/rocket2_sp.png'},
-    {'name': 'resources/alien3_norm.png', 'path': 'resources/alien3_norm.png'}
+    {'name': 'resources/tutrocket2_d.png', 'path': 'resources/tutrocket2_d.png'},
+    {'name': 'resources/tutrocket2_s.png', 'path': 'resources/tutrocket2_s.png'},
+    {'name': 'resources/tutalien4_n.png', 'path': 'resources/tutalien4_n.png'},
+    {'name': 'resources/tutalien3_a2.png', 'path': 'resources/tutalien3_a2.png'}
   ]
 });
 
@@ -510,6 +510,16 @@ var gold_exp;
 var total_goldClock;
 var text_show_exp_gold;
 var key_resp_show_total_gold;
+var transitionClock;
+var text_transition;
+var key_resp_transition;
+var fixationClock;
+var fixation_cross;
+var PROBEClock;
+var probe_question;
+var l_img_probe;
+var r_img_probe;
+var key_resp_probe;
 var transition_to_postClock;
 var key_transition_to_post;
 var text_transition_to_post;
@@ -524,16 +534,6 @@ var img_down_r2;
 var up_text;
 var down_text;
 var slider;
-var transitionClock;
-var text_transition;
-var key_resp_transition;
-var fixationClock;
-var fixation_cross;
-var PROBEClock;
-var probe_question;
-var l_img_probe;
-var r_img_probe;
-var key_resp_probe;
 var endClock;
 var key_end;
 var text_end;
@@ -1720,6 +1720,69 @@ async function experimentInit() {
   
   key_resp_show_total_gold = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
+  // Initialize components for Routine "transition"
+  transitionClock = new util.Clock();
+  text_transition = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_transition',
+    text: 'Now we will begin the follow up experiment. The aim of this task is to select the alien in each pair which is more likely to have spacegold. This task will be played only once, without any practice.  Again, press X for left item and M for right item.\n\nPress SPACE  to continue.',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, 0.1], height: 0.03,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: 0.0 
+  });
+  
+  key_resp_transition = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "fixation"
+  fixationClock = new util.Clock();
+  fixation_cross = new visual.ShapeStim ({
+    win: psychoJS.window, name: 'fixation_cross', 
+    vertices: 'cross', size:[0.05, 0.05],
+    ori: 0.0, pos: [0, 0],
+    lineWidth: 1.0, 
+    colorSpace: 'rgb',
+    lineColor: new util.Color('white'),
+    fillColor: new util.Color('white'),
+    opacity: undefined, depth: 0, interpolate: true,
+  });
+  
+  // Initialize components for Routine "PROBE"
+  PROBEClock = new util.Clock();
+  probe_question = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'probe_question',
+    text: 'Which alien was more likely to share gold?',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, 0.23], height: 0.03,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: 0.0 
+  });
+  
+  l_img_probe = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'l_img_probe', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [(- 0.3), 0], size : [0.3, 0.3],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -1.0 
+  });
+  r_img_probe = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'r_img_probe', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0.3, 0], size : [0.3, 0.3],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -2.0 
+  });
+  key_resp_probe = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
   // Initialize components for Routine "transition_to_post"
   transition_to_postClock = new util.Clock();
   key_transition_to_post = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
@@ -1828,69 +1891,6 @@ async function experimentInit() {
     opacity: undefined, fontFamily: 'Open Sans', bold: true, italic: false, depth: -9, 
     flip: false,
   });
-  
-  // Initialize components for Routine "transition"
-  transitionClock = new util.Clock();
-  text_transition = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text_transition',
-    text: 'Now we will begin the follow up experiment. The aim of this task is to select the alien in each pair which is more likely to have spacegold. This task will be played only once, without any practice.  Again, press X for left item and M for right item.\n\nPress SPACE  to continue.',
-    font: 'Open Sans',
-    units: undefined, 
-    pos: [0, 0.1], height: 0.03,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
-  
-  key_resp_transition = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
-  
-  // Initialize components for Routine "fixation"
-  fixationClock = new util.Clock();
-  fixation_cross = new visual.ShapeStim ({
-    win: psychoJS.window, name: 'fixation_cross', 
-    vertices: 'cross', size:[0.05, 0.05],
-    ori: 0.0, pos: [0, 0],
-    lineWidth: 1.0, 
-    colorSpace: 'rgb',
-    lineColor: new util.Color('white'),
-    fillColor: new util.Color('white'),
-    opacity: undefined, depth: 0, interpolate: true,
-  });
-  
-  // Initialize components for Routine "PROBE"
-  PROBEClock = new util.Clock();
-  probe_question = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'probe_question',
-    text: 'Which alien was more likely to share gold?',
-    font: 'Open Sans',
-    units: undefined, 
-    pos: [0, 0.23], height: 0.03,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
-  
-  l_img_probe = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'l_img_probe', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : [(- 0.3), 0], size : [0.3, 0.3],
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -1.0 
-  });
-  r_img_probe = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'r_img_probe', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : [0.3, 0], size : [0.3, 0.3],
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -2.0 
-  });
-  key_resp_probe = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
   // Initialize components for Routine "end"
   endClock = new util.Clock();
@@ -2636,69 +2636,6 @@ function loop_expLoopEndIteration(scheduler, snapshot) {
 }
 
 
-var post_loop;
-function post_loopLoopBegin(post_loopLoopScheduler, snapshot) {
-  return async function() {
-    TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
-    
-    // set up handler to look after randomisation of conditions etc
-    post_loop = new TrialHandler({
-      psychoJS: psychoJS,
-      nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
-      extraInfo: expInfo, originPath: undefined,
-      trialList: 'resources/post_test.xlsx',
-      seed: undefined, name: 'post_loop'
-    });
-    psychoJS.experiment.addLoop(post_loop); // add the loop to the experiment
-    currentLoop = post_loop;  // we're now the current loop
-    
-    // Schedule all the trials in the trialList:
-    for (const thisPost_loop of post_loop) {
-      snapshot = post_loop.getSnapshot();
-      post_loopLoopScheduler.add(importConditions(snapshot));
-      post_loopLoopScheduler.add(post_taskRoutineBegin(snapshot));
-      post_loopLoopScheduler.add(post_taskRoutineEachFrame());
-      post_loopLoopScheduler.add(post_taskRoutineEnd(snapshot));
-      post_loopLoopScheduler.add(post_loopLoopEndIteration(post_loopLoopScheduler, snapshot));
-    }
-    
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-async function post_loopLoopEnd() {
-  // terminate loop
-  psychoJS.experiment.removeLoop(post_loop);
-  // update the current loop from the ExperimentHandler
-  if (psychoJS.experiment._unfinishedLoops.length>0)
-    currentLoop = psychoJS.experiment._unfinishedLoops.at(-1);
-  else
-    currentLoop = psychoJS.experiment;  // so we use addData from the experiment
-  return Scheduler.Event.NEXT;
-}
-
-
-function post_loopLoopEndIteration(scheduler, snapshot) {
-  // ------Prepare for next entry------
-  return async function () {
-    if (typeof snapshot !== 'undefined') {
-      // ------Check if user ended loop early------
-      if (snapshot.finished) {
-        // Check for and save orphaned data
-        if (psychoJS.experiment.isEntryEmpty()) {
-          psychoJS.experiment.nextEntry(snapshot);
-        }
-        scheduler.stop();
-      } else {
-        psychoJS.experiment.nextEntry(snapshot);
-      }
-    return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
 var probe_loop;
 function probe_loopLoopBegin(probe_loopLoopScheduler, snapshot) {
   return async function() {
@@ -2746,6 +2683,72 @@ async function probe_loopLoopEnd() {
 
 
 function probe_loopLoopEndIteration(scheduler, snapshot) {
+  // ------Prepare for next entry------
+  return async function () {
+    if (typeof snapshot !== 'undefined') {
+      // ------Check if user ended loop early------
+      if (snapshot.finished) {
+        // Check for and save orphaned data
+        if (psychoJS.experiment.isEntryEmpty()) {
+          psychoJS.experiment.nextEntry(snapshot);
+        }
+        scheduler.stop();
+      } else {
+        psychoJS.experiment.nextEntry(snapshot);
+      }
+    return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+var post_loop;
+function post_loopLoopBegin(post_loopLoopScheduler, snapshot) {
+  return async function() {
+    TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
+    
+    // set up handler to look after randomisation of conditions etc
+    post_loop = new TrialHandler({
+      psychoJS: psychoJS,
+      nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
+      extraInfo: expInfo, originPath: undefined,
+      trialList: 'resources/post_test.xlsx',
+      seed: undefined, name: 'post_loop'
+    });
+    psychoJS.experiment.addLoop(post_loop); // add the loop to the experiment
+    currentLoop = post_loop;  // we're now the current loop
+    
+    // Schedule all the trials in the trialList:
+    for (const thisPost_loop of post_loop) {
+      snapshot = post_loop.getSnapshot();
+      post_loopLoopScheduler.add(importConditions(snapshot));
+      post_loopLoopScheduler.add(fixationRoutineBegin(snapshot));
+      post_loopLoopScheduler.add(fixationRoutineEachFrame());
+      post_loopLoopScheduler.add(fixationRoutineEnd(snapshot));
+      post_loopLoopScheduler.add(post_taskRoutineBegin(snapshot));
+      post_loopLoopScheduler.add(post_taskRoutineEachFrame());
+      post_loopLoopScheduler.add(post_taskRoutineEnd(snapshot));
+      post_loopLoopScheduler.add(post_loopLoopEndIteration(post_loopLoopScheduler, snapshot));
+    }
+    
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+async function post_loopLoopEnd() {
+  // terminate loop
+  psychoJS.experiment.removeLoop(post_loop);
+  // update the current loop from the ExperimentHandler
+  if (psychoJS.experiment._unfinishedLoops.length>0)
+    currentLoop = psychoJS.experiment._unfinishedLoops.at(-1);
+  else
+    currentLoop = psychoJS.experiment;  // so we use addData from the experiment
+  return Scheduler.Event.NEXT;
+}
+
+
+function post_loopLoopEndIteration(scheduler, snapshot) {
   // ------Prepare for next entry------
   return async function () {
     if (typeof snapshot !== 'undefined') {
@@ -7732,365 +7735,6 @@ function total_goldRoutineEnd(snapshot) {
 }
 
 
-var _key_transition_to_post_allKeys;
-var transition_to_postComponents;
-function transition_to_postRoutineBegin(snapshot) {
-  return async function () {
-    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
-    
-    //--- Prepare to start Routine 'transition_to_post' ---
-    t = 0;
-    transition_to_postClock.reset(); // clock
-    frameN = -1;
-    continueRoutine = true; // until we're told otherwise
-    // update component parameters for each repeat
-    key_transition_to_post.keys = undefined;
-    key_transition_to_post.rt = undefined;
-    _key_transition_to_post_allKeys = [];
-    // keep track of which components have finished
-    transition_to_postComponents = [];
-    transition_to_postComponents.push(key_transition_to_post);
-    transition_to_postComponents.push(text_transition_to_post);
-    
-    for (const thisComponent of transition_to_postComponents)
-      if ('status' in thisComponent)
-        thisComponent.status = PsychoJS.Status.NOT_STARTED;
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-function transition_to_postRoutineEachFrame() {
-  return async function () {
-    //--- Loop for each frame of Routine 'transition_to_post' ---
-    // get current time
-    t = transition_to_postClock.getTime();
-    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
-    // update/draw components on each frame
-    
-    // *key_transition_to_post* updates
-    if (t >= 0.0 && key_transition_to_post.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      key_transition_to_post.tStart = t;  // (not accounting for frame time here)
-      key_transition_to_post.frameNStart = frameN;  // exact frame index
-      
-      // keyboard checking is just starting
-      psychoJS.window.callOnFlip(function() { key_transition_to_post.clock.reset(); });  // t=0 on next screen flip
-      psychoJS.window.callOnFlip(function() { key_transition_to_post.start(); }); // start on screen flip
-      psychoJS.window.callOnFlip(function() { key_transition_to_post.clearEvents(); });
-    }
-
-    if (key_transition_to_post.status === PsychoJS.Status.STARTED) {
-      let theseKeys = key_transition_to_post.getKeys({keyList: ['space'], waitRelease: false});
-      _key_transition_to_post_allKeys = _key_transition_to_post_allKeys.concat(theseKeys);
-      if (_key_transition_to_post_allKeys.length > 0) {
-        key_transition_to_post.keys = _key_transition_to_post_allKeys[_key_transition_to_post_allKeys.length - 1].name;  // just the last key pressed
-        key_transition_to_post.rt = _key_transition_to_post_allKeys[_key_transition_to_post_allKeys.length - 1].rt;
-        // a response ends the routine
-        continueRoutine = false;
-      }
-    }
-    
-    
-    // *text_transition_to_post* updates
-    if (t >= 0.0 && text_transition_to_post.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      text_transition_to_post.tStart = t;  // (not accounting for frame time here)
-      text_transition_to_post.frameNStart = frameN;  // exact frame index
-      
-      text_transition_to_post.setAutoDraw(true);
-    }
-
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
-    // check if the Routine should terminate
-    if (!continueRoutine) {  // a component has requested a forced-end of Routine
-      return Scheduler.Event.NEXT;
-    }
-    
-    continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of transition_to_postComponents)
-      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
-        continueRoutine = true;
-        break;
-      }
-    
-    // refresh the screen if continuing
-    if (continueRoutine) {
-      return Scheduler.Event.FLIP_REPEAT;
-    } else {
-      return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
-function transition_to_postRoutineEnd(snapshot) {
-  return async function () {
-    //--- Ending Routine 'transition_to_post' ---
-    for (const thisComponent of transition_to_postComponents) {
-      if (typeof thisComponent.setAutoDraw === 'function') {
-        thisComponent.setAutoDraw(false);
-      }
-    }
-    key_transition_to_post.stop();
-    // the Routine "transition_to_post" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset();
-    
-    // Routines running outside a loop should always advance the datafile row
-    if (currentLoop === psychoJS.experiment) {
-      psychoJS.experiment.nextEntry(snapshot);
-    }
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-var _key_resp_allKeys;
-var post_taskComponents;
-function post_taskRoutineBegin(snapshot) {
-  return async function () {
-    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
-    
-    //--- Prepare to start Routine 'post_task' ---
-    t = 0;
-    post_taskClock.reset(); // clock
-    frameN = -1;
-    continueRoutine = true; // until we're told otherwise
-    // update component parameters for each repeat
-    key_resp.keys = undefined;
-    key_resp.rt = undefined;
-    _key_resp_allKeys = [];
-    img_up_l.setPos(pos_img_left_up);
-    img_up_l.setSize(size);
-    img_up_l.setImage(left_up_img);
-    img_up_r.setSize(size);
-    img_up_r.setImage(right_up_img);
-    img_down_l.setPos([(- 0.3), (- 0.27)]);
-    img_down_l.setSize(size);
-    img_down_l.setImage(left_down_img_1);
-    img_down_l2.setSize(size);
-    img_down_l2.setImage(left_down_img_2);
-    image_down_r.setSize(size);
-    image_down_r.setImage(right_down_img_1);
-    img_down_r2.setSize(size);
-    img_down_r2.setImage(right_down_img_2);
-    up_text.setPos(pos_text_up);
-    up_text.setText(text_up);
-    down_text.setText(text_down);
-    slider.reset()
-    // Run 'Begin Routine' code from code_phase_saving
-    // save phase info
-    psychoJS.experiment.addData("phase", "post");
-    
-    // keep track of which components have finished
-    post_taskComponents = [];
-    post_taskComponents.push(key_resp);
-    post_taskComponents.push(img_up_l);
-    post_taskComponents.push(img_up_r);
-    post_taskComponents.push(img_down_l);
-    post_taskComponents.push(img_down_l2);
-    post_taskComponents.push(image_down_r);
-    post_taskComponents.push(img_down_r2);
-    post_taskComponents.push(up_text);
-    post_taskComponents.push(down_text);
-    post_taskComponents.push(slider);
-    
-    for (const thisComponent of post_taskComponents)
-      if ('status' in thisComponent)
-        thisComponent.status = PsychoJS.Status.NOT_STARTED;
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-function post_taskRoutineEachFrame() {
-  return async function () {
-    //--- Loop for each frame of Routine 'post_task' ---
-    // get current time
-    t = post_taskClock.getTime();
-    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
-    // update/draw components on each frame
-    
-    // *key_resp* updates
-    if (t >= 0.0 && key_resp.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      key_resp.tStart = t;  // (not accounting for frame time here)
-      key_resp.frameNStart = frameN;  // exact frame index
-      
-      // keyboard checking is just starting
-      psychoJS.window.callOnFlip(function() { key_resp.clock.reset(); });  // t=0 on next screen flip
-      psychoJS.window.callOnFlip(function() { key_resp.start(); }); // start on screen flip
-      psychoJS.window.callOnFlip(function() { key_resp.clearEvents(); });
-    }
-
-    if (key_resp.status === PsychoJS.Status.STARTED) {
-      let theseKeys = key_resp.getKeys({keyList: ['m', 'x', '1', '2', '3', '4', 'space'], waitRelease: false});
-      _key_resp_allKeys = _key_resp_allKeys.concat(theseKeys);
-      if (_key_resp_allKeys.length > 0) {
-        key_resp.keys = _key_resp_allKeys[_key_resp_allKeys.length - 1].name;  // just the last key pressed
-        key_resp.rt = _key_resp_allKeys[_key_resp_allKeys.length - 1].rt;
-        // a response ends the routine
-        continueRoutine = false;
-      }
-    }
-    
-    
-    // *img_up_l* updates
-    if (t >= 0.0 && img_up_l.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      img_up_l.tStart = t;  // (not accounting for frame time here)
-      img_up_l.frameNStart = frameN;  // exact frame index
-      
-      img_up_l.setAutoDraw(true);
-    }
-
-    
-    // *img_up_r* updates
-    if (t >= 0.0 && img_up_r.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      img_up_r.tStart = t;  // (not accounting for frame time here)
-      img_up_r.frameNStart = frameN;  // exact frame index
-      
-      img_up_r.setAutoDraw(true);
-    }
-
-    
-    // *img_down_l* updates
-    if (t >= 0.0 && img_down_l.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      img_down_l.tStart = t;  // (not accounting for frame time here)
-      img_down_l.frameNStart = frameN;  // exact frame index
-      
-      img_down_l.setAutoDraw(true);
-    }
-
-    
-    // *img_down_l2* updates
-    if (t >= 0.0 && img_down_l2.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      img_down_l2.tStart = t;  // (not accounting for frame time here)
-      img_down_l2.frameNStart = frameN;  // exact frame index
-      
-      img_down_l2.setAutoDraw(true);
-    }
-
-    
-    // *image_down_r* updates
-    if (t >= 0.0 && image_down_r.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      image_down_r.tStart = t;  // (not accounting for frame time here)
-      image_down_r.frameNStart = frameN;  // exact frame index
-      
-      image_down_r.setAutoDraw(true);
-    }
-
-    
-    // *img_down_r2* updates
-    if (t >= 0.0 && img_down_r2.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      img_down_r2.tStart = t;  // (not accounting for frame time here)
-      img_down_r2.frameNStart = frameN;  // exact frame index
-      
-      img_down_r2.setAutoDraw(true);
-    }
-
-    
-    // *up_text* updates
-    if (t >= 0.0 && up_text.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      up_text.tStart = t;  // (not accounting for frame time here)
-      up_text.frameNStart = frameN;  // exact frame index
-      
-      up_text.setAutoDraw(true);
-    }
-
-    
-    // *down_text* updates
-    if (t >= 0.0 && down_text.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      down_text.tStart = t;  // (not accounting for frame time here)
-      down_text.frameNStart = frameN;  // exact frame index
-      
-      down_text.setAutoDraw(true);
-    }
-
-    
-    // *slider* updates
-    if (t >= 0.0 && slider.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      slider.tStart = t;  // (not accounting for frame time here)
-      slider.frameNStart = frameN;  // exact frame index
-      
-      slider.setAutoDraw(true);
-    }
-
-    if (slider.status === PsychoJS.Status.STARTED && Boolean(show_slider)) {
-      slider.setAutoDraw(false);
-    }
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
-    // check if the Routine should terminate
-    if (!continueRoutine) {  // a component has requested a forced-end of Routine
-      return Scheduler.Event.NEXT;
-    }
-    
-    continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of post_taskComponents)
-      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
-        continueRoutine = true;
-        break;
-      }
-    
-    // refresh the screen if continuing
-    if (continueRoutine) {
-      return Scheduler.Event.FLIP_REPEAT;
-    } else {
-      return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
-function post_taskRoutineEnd(snapshot) {
-  return async function () {
-    //--- Ending Routine 'post_task' ---
-    for (const thisComponent of post_taskComponents) {
-      if (typeof thisComponent.setAutoDraw === 'function') {
-        thisComponent.setAutoDraw(false);
-      }
-    }
-    // update the trial handler
-    if (currentLoop instanceof MultiStairHandler) {
-      currentLoop.addResponse(key_resp.corr, level);
-    }
-    psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
-    if (typeof key_resp.keys !== 'undefined') {  // we had a response
-        psychoJS.experiment.addData('key_resp.rt', key_resp.rt);
-        routineTimer.reset();
-        }
-    
-    key_resp.stop();
-    psychoJS.experiment.addData('slider.response', slider.getRating());
-    psychoJS.experiment.addData('slider.rt', slider.getRT());
-    // the Routine "post_task" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset();
-    
-    // Routines running outside a loop should always advance the datafile row
-    if (currentLoop === psychoJS.experiment) {
-      psychoJS.experiment.nextEntry(snapshot);
-    }
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
 var _key_resp_transition_allKeys;
 var transitionComponents;
 function transitionRoutineBegin(snapshot) {
@@ -8514,6 +8158,365 @@ function PROBERoutineEnd(snapshot) {
         }
     }
     psychoJS.experiment.addData("accuracy", accuracy);
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var _key_transition_to_post_allKeys;
+var transition_to_postComponents;
+function transition_to_postRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'transition_to_post' ---
+    t = 0;
+    transition_to_postClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    // update component parameters for each repeat
+    key_transition_to_post.keys = undefined;
+    key_transition_to_post.rt = undefined;
+    _key_transition_to_post_allKeys = [];
+    // keep track of which components have finished
+    transition_to_postComponents = [];
+    transition_to_postComponents.push(key_transition_to_post);
+    transition_to_postComponents.push(text_transition_to_post);
+    
+    for (const thisComponent of transition_to_postComponents)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function transition_to_postRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'transition_to_post' ---
+    // get current time
+    t = transition_to_postClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *key_transition_to_post* updates
+    if (t >= 0.0 && key_transition_to_post.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_transition_to_post.tStart = t;  // (not accounting for frame time here)
+      key_transition_to_post.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_transition_to_post.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_transition_to_post.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_transition_to_post.clearEvents(); });
+    }
+
+    if (key_transition_to_post.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_transition_to_post.getKeys({keyList: ['space'], waitRelease: false});
+      _key_transition_to_post_allKeys = _key_transition_to_post_allKeys.concat(theseKeys);
+      if (_key_transition_to_post_allKeys.length > 0) {
+        key_transition_to_post.keys = _key_transition_to_post_allKeys[_key_transition_to_post_allKeys.length - 1].name;  // just the last key pressed
+        key_transition_to_post.rt = _key_transition_to_post_allKeys[_key_transition_to_post_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    
+    // *text_transition_to_post* updates
+    if (t >= 0.0 && text_transition_to_post.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text_transition_to_post.tStart = t;  // (not accounting for frame time here)
+      text_transition_to_post.frameNStart = frameN;  // exact frame index
+      
+      text_transition_to_post.setAutoDraw(true);
+    }
+
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of transition_to_postComponents)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function transition_to_postRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'transition_to_post' ---
+    for (const thisComponent of transition_to_postComponents) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    key_transition_to_post.stop();
+    // the Routine "transition_to_post" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var _key_resp_allKeys;
+var post_taskComponents;
+function post_taskRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'post_task' ---
+    t = 0;
+    post_taskClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    // update component parameters for each repeat
+    key_resp.keys = undefined;
+    key_resp.rt = undefined;
+    _key_resp_allKeys = [];
+    img_up_l.setPos(pos_img_left_up);
+    img_up_l.setSize(size);
+    img_up_l.setImage(left_up_img);
+    img_up_r.setSize(size);
+    img_up_r.setImage(right_up_img);
+    img_down_l.setPos([(- 0.3), (- 0.27)]);
+    img_down_l.setSize(size);
+    img_down_l.setImage(left_down_img_1);
+    img_down_l2.setSize(size);
+    img_down_l2.setImage(left_down_img_2);
+    image_down_r.setSize(size);
+    image_down_r.setImage(right_down_img_1);
+    img_down_r2.setSize(size);
+    img_down_r2.setImage(right_down_img_2);
+    up_text.setPos(pos_text_up);
+    up_text.setText(text_up);
+    down_text.setText(text_down);
+    slider.reset()
+    // Run 'Begin Routine' code from code_phase_saving
+    // save phase info
+    psychoJS.experiment.addData("phase", "post");
+    
+    // keep track of which components have finished
+    post_taskComponents = [];
+    post_taskComponents.push(key_resp);
+    post_taskComponents.push(img_up_l);
+    post_taskComponents.push(img_up_r);
+    post_taskComponents.push(img_down_l);
+    post_taskComponents.push(img_down_l2);
+    post_taskComponents.push(image_down_r);
+    post_taskComponents.push(img_down_r2);
+    post_taskComponents.push(up_text);
+    post_taskComponents.push(down_text);
+    post_taskComponents.push(slider);
+    
+    for (const thisComponent of post_taskComponents)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function post_taskRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'post_task' ---
+    // get current time
+    t = post_taskClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *key_resp* updates
+    if (t >= 0.0 && key_resp.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      key_resp.tStart = t;  // (not accounting for frame time here)
+      key_resp.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { key_resp.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { key_resp.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { key_resp.clearEvents(); });
+    }
+
+    if (key_resp.status === PsychoJS.Status.STARTED) {
+      let theseKeys = key_resp.getKeys({keyList: ['m', 'x', '1', '2', '3', '4', 'space'], waitRelease: false});
+      _key_resp_allKeys = _key_resp_allKeys.concat(theseKeys);
+      if (_key_resp_allKeys.length > 0) {
+        key_resp.keys = _key_resp_allKeys[_key_resp_allKeys.length - 1].name;  // just the last key pressed
+        key_resp.rt = _key_resp_allKeys[_key_resp_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    
+    // *img_up_l* updates
+    if (t >= 0.0 && img_up_l.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      img_up_l.tStart = t;  // (not accounting for frame time here)
+      img_up_l.frameNStart = frameN;  // exact frame index
+      
+      img_up_l.setAutoDraw(true);
+    }
+
+    
+    // *img_up_r* updates
+    if (t >= 0.0 && img_up_r.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      img_up_r.tStart = t;  // (not accounting for frame time here)
+      img_up_r.frameNStart = frameN;  // exact frame index
+      
+      img_up_r.setAutoDraw(true);
+    }
+
+    
+    // *img_down_l* updates
+    if (t >= 0.0 && img_down_l.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      img_down_l.tStart = t;  // (not accounting for frame time here)
+      img_down_l.frameNStart = frameN;  // exact frame index
+      
+      img_down_l.setAutoDraw(true);
+    }
+
+    
+    // *img_down_l2* updates
+    if (t >= 0.0 && img_down_l2.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      img_down_l2.tStart = t;  // (not accounting for frame time here)
+      img_down_l2.frameNStart = frameN;  // exact frame index
+      
+      img_down_l2.setAutoDraw(true);
+    }
+
+    
+    // *image_down_r* updates
+    if (t >= 0.0 && image_down_r.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      image_down_r.tStart = t;  // (not accounting for frame time here)
+      image_down_r.frameNStart = frameN;  // exact frame index
+      
+      image_down_r.setAutoDraw(true);
+    }
+
+    
+    // *img_down_r2* updates
+    if (t >= 0.0 && img_down_r2.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      img_down_r2.tStart = t;  // (not accounting for frame time here)
+      img_down_r2.frameNStart = frameN;  // exact frame index
+      
+      img_down_r2.setAutoDraw(true);
+    }
+
+    
+    // *up_text* updates
+    if (t >= 0.0 && up_text.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      up_text.tStart = t;  // (not accounting for frame time here)
+      up_text.frameNStart = frameN;  // exact frame index
+      
+      up_text.setAutoDraw(true);
+    }
+
+    
+    // *down_text* updates
+    if (t >= 0.0 && down_text.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      down_text.tStart = t;  // (not accounting for frame time here)
+      down_text.frameNStart = frameN;  // exact frame index
+      
+      down_text.setAutoDraw(true);
+    }
+
+    
+    // *slider* updates
+    if (t >= 0.0 && slider.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      slider.tStart = t;  // (not accounting for frame time here)
+      slider.frameNStart = frameN;  // exact frame index
+      
+      slider.setAutoDraw(true);
+    }
+
+    if (slider.status === PsychoJS.Status.STARTED && Boolean(show_slider)) {
+      slider.setAutoDraw(false);
+    }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of post_taskComponents)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function post_taskRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'post_task' ---
+    for (const thisComponent of post_taskComponents) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    // update the trial handler
+    if (currentLoop instanceof MultiStairHandler) {
+      currentLoop.addResponse(key_resp.corr, level);
+    }
+    psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
+    if (typeof key_resp.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('key_resp.rt', key_resp.rt);
+        routineTimer.reset();
+        }
+    
+    key_resp.stop();
+    psychoJS.experiment.addData('slider.response', slider.getRating());
+    psychoJS.experiment.addData('slider.rt', slider.getRT());
+    // the Routine "post_task" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
     
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
