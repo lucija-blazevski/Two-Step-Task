@@ -16,9 +16,9 @@ The task is divided into four main phases:
 
 2. **Learning Phase**: Main task part where participants make two sequential decisions and learn associations between different spaceships, planets, aliens and rewards.  
 
-3. **Post-Task Testing Phase**: This phase evaluates the participants' understanding and retention of the associations learned in the previous phase.
+3. **Probe Phase**: Participants are required to make decisions based on the probability of certain aliens granting treasure, reflecting their learned associations.
 
-4. **Probe Phase**: Participants are required to make decisions based on the probability of certain aliens granting treasure, reflecting their learned associations.
+4. **Post-Task Testing Phase**: This phase evaluates the participants' understanding and retention of the associations learned in the previous phase.
 
 ## Usage
 For online use, [clone or fork](https://pavlovia.org/docs/experiments/create-fork) this repository to use the task through Pavlovia. For local use, Builder version of the task must be adapted to ensure data is output correctly.
